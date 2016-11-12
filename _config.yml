@@ -252,4 +252,4 @@ defaults:
     values:
       layout: archive
       header:
-        image: /assets/images/plainheader.jpg
+        image: /assets/images/plainbanner.jpg
