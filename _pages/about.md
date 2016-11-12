@@ -1,5 +1,5 @@
 ---
-title: Microcontroller SIG Moorabin
+title: Microcontroller SIG Moorabbin
 permalink: /about/
 ---
 
