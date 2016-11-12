@@ -1,13 +1,10 @@
 ---
 title: Debug Jekyll Variables
-permalink: /debugpage/
+permalink: /developer/
 ---
 
 #Site
-{{ site | inspect }}
 
 #Layout
-{{ layout | inspect }}
 
 #Page
-{{ page | inspect }}
