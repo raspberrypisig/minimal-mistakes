@@ -4,6 +4,7 @@ permalink: /developer/
 ---
 
 #Site
+{{ site | inspect }}
 
 #Layout
 
