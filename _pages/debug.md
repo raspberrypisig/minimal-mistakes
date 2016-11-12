@@ -4,7 +4,7 @@ permalink: /developer/
 ---
 
 #Site
-{{ site | inspect }}
+{{ site | debug }}
 
 #Layout
 
