@@ -1,7 +1,7 @@
 ---
 title: Ultrasonic Sensor
 categories: blog
-excerpt: Bill S demo'd his 4WD robot, which utilises the standard HC-SR04 ultrasonic sensors.
+excerpt: Bill S demo'd his 4WD robot, which utilises the standard HC-SR04 ultrasonic sensors. <img src="http://2.bp.blogspot.com/-EBxJWG31r20/UJ9LQgmFycI/AAAAAAAAASg/SSWcoQUi9iY/s1600/HC_SR04+sketch2.jpg"/>
 ---
 Bill S's robot uses standard HC-SR04 Ultrasonic sensor which works as follows:
 
