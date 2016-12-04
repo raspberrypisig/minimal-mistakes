@@ -251,6 +251,5 @@ defaults:
       type: pages
     values:
       layout: archive
-      debugger: true
       header:
-        image: /assets/images/plainbanner.jpg
+        image: /assets/images/headerbg-blue.jpg
