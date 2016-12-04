@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "RPi Moorabin"
+title                    : "RPi Moorabbin"
 title_separator          : "-"
 name                     : "raspberry pi jnr"
 description              : "Raspberry Pi Moorabin"
