@@ -251,7 +251,6 @@ defaults:
       type: pages
     values:
       layout: archive
-      header:
-      image: /assets/image/headerbg-blue.svg
+
       
       
