@@ -1,6 +1,6 @@
 ---
 title: RTAndroid
-categories: blog
+categories: android
 ---
 
 Great distro for Raspberry Pi 3. Run latest Android (7.1 as of this writing). Complicated setup, but worth the effort. Commercial product,
