@@ -244,6 +244,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      permalink: /blog/:year/:month/:day/:title/
       
 # _pages
   - scope:
