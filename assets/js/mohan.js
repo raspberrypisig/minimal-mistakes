@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var date = Date.today().second().thursday();
+  var date = Date.today().second().saturday();
   $('#nextmeetingdate').html(date);
 });
 
