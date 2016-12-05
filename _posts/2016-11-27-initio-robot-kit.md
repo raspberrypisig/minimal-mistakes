@@ -1,6 +1,6 @@
 ---
 title: Initio Robot Kit
-categories: blog
+categories: robot
 ---
 Bill S. Demo'd this at the November 2016 meeting.
 
