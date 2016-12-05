@@ -3,3 +3,11 @@
 <div>479 Warrigal Road </div> 
 <div>Moorabbin, Victoria, Australia</div>
 <a href="/map/" style="display:block;">Map</a>
+<h2>Next Meeting</h2>
+<div id="nextmeetingdate"></div>
+<script type="text/javascript">
+$(document).ready(function() {
+  var date = Date.today().second().thursday();
+  $('nextmeetingdate').text = date;
+});
+</script>
