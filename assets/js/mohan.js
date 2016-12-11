@@ -13,7 +13,7 @@ $(document).ready(function() {
   
   if (meeting_remains_this_month < 0) {
     candidate_date = Date.today().next().month().second().saturday();
-    $('#nextmeetingdate').html(candidate_date);
+    $('#nextmeetingdate').html(candidate_date.toString("ddd d MMM yyyy"));
   }
   
 
