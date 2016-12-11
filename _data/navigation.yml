@@ -6,6 +6,10 @@ main:
     url: /resources/
   - title: "Wiki"
     url: https://github.com/raspberrypisig/raspberrypisig.github.io/wiki/Raspberry-Pi-Moorabbin-Wiki  # - title: "Sample Posts"
+  - title: "Projects"
+    url: /projects/
+  - title: "Github"
+    url: https://github.com/raspberrypisig/
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
