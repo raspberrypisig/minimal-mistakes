@@ -245,9 +245,6 @@ defaults:
       share: true
       related: true
       permalink: /blog/:year/:month/:day/:title/
-      excerpt: :title
-      header:
-      overlay_image: /assets/images/headerbg-blue.svg
       
 # _pages
   - scope:
