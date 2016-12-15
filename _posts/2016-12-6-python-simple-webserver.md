@@ -15,7 +15,7 @@ python -m SimpleHTTPServer 80
 python -m http.server 80
 
 If you then fire up a web browser and type http://localhost:80 or if you are on another computer 
-http://<<IP ADDRESS>:80  If there is something already on port 80, just choose another port. 
+http://<IP ADDRESS>:80  If there is something already on port 80, just choose another port. 
 
 I have found this incredibly useful for 2 purposes:
 1. Just want to quicky look serve HTML files scattered around different places on my computer
