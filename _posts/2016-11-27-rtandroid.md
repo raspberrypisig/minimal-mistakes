@@ -1,6 +1,8 @@
 ---
 title: RTAndroid
 categories: android
+excerpt: Android for the Raspberry Pi
+image: https://www.raspberrypi.org/magpi/wp-content/uploads/2016/09/Android_Raspberry_pi.jpg
 ---
 
 Great distro for Raspberry Pi 3. Run latest Android (7.1 as of this writing). Complicated setup, but worth the effort. Commercial product,
