@@ -1,6 +1,8 @@
 ---
 title: Adventures in Bluetooth Low Energy - using gatttool
 categories: bluetooth BLE
+excerpt: Talk Bluetooth Low Energy from the command line on the Pi 
+image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/gattool.jpg 
 ---
 As a NOOB, introducing myself to various rPi physical computing like GPIO, I2C, SPI, serial and bluetooth.
 Today we start with Bluetooth Low Energy. I want my Raspberry Pi 3 to talk to my Genuino 101 (known as Arduino 101 in USA). Both have BLE.
@@ -20,7 +22,7 @@ $ gatttool -I
    [        ][LE]> characteristics
    [        ][LE]> char-read-hnd 0x037
    [        ][LE]> char-write-cmd 0x037 01
-   [        ][LE]> char-write-hnd 0x037
+   [        ][LE]> char-read-hnd 0x037
 ```
 
-Next will attempt to do the same in python.
+
