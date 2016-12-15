@@ -16,6 +16,12 @@
   {% capture overlay_img_path %}{{ page.header.overlay_image | absolute_url }}{% endcapture %}
 {% endif %}
 
+{% if post.header.overlay_image contains "://" %}
+  {% capture overlay_img_path %}{{ post.header.overlay_image }}{% endcapture %}
+{% elsif post.header.overlay_image %}
+  {% capture overlay_img_path %}{{ post.header.overlay_image | absolute_url }}{% endcapture %}
+{% endif %}
+
 {% if page.header.overlay_filter contains "rgba" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
 {% elsif page.header.overlay_filter %}
