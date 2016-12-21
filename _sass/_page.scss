@@ -17,7 +17,8 @@
 }
 
 .page {
-  padding-left: 20%; /*Mohan*/
+  margin-left: auto;/*Mohan*/
+  margin-right: auto; /* Mohan */
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
