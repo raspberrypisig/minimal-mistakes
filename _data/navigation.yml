@@ -2,12 +2,10 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Resources"
-    url: /resources/
+  - title: "Meetings"
+    url: /meetings/
   - title: "Wiki"
     url: https://github.com/raspberrypisig/raspberrypisig.github.io/wiki/Raspberry-Pi-Moorabbin-Wiki  # - title: "Sample Posts"
-  - title: "Projects"
-    url: /projects/
   - title: "Github"
     url: https://github.com/raspberrypisig/raspberrypisig.github.io
   #   url: /year-archive/
