@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "RPi Moorabbin"
+title                    : "<img src='http://i0.wp.com/retroresolution.files.wordpress.com/2015/11/dl_icons_raspberrypi-new.png'/>RPi Moorabbin"
 title_separator          : "-"
 name                     : "raspberry pi jnr"
 description              : "Raspberry Pi Moorabin"
