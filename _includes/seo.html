@@ -20,7 +20,7 @@
   {% assign site.title = site.title | strip_html  %}
 {% endif %}
 
-<title>{{ seo_title | default: site.title  }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+<title>{{ seo_title | default: "Raspberry Pi Moorabbin"  }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
