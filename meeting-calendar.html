@@ -25,12 +25,12 @@
     var meeting_remains_this_month = candidate_date.compareTo(today_date);
   
     if (meeting_remains_this_month >= 0) {
-      nextMeetingDate = candidate_date.toString("yyyy-M-d");
+      nextMeetingDate = candidate_date.toString("yyyy-MM-d");
     }
   
     else {
       candidate_date = Date.today().next().month().second().saturday();
-      nextMeetingDate = candidate_date.toString("yyyy-M-d");
+      nextMeetingDate = candidate_date.toString("yyyy-MM-d");
     }  
   })();
   
