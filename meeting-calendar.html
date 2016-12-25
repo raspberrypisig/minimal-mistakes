@@ -12,9 +12,36 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
-    <script src="/assets/js/zabuto_calendar.min.js"></script>  
+    <script src="/assets/js/zabuto_calendar.min.js"></script> 
+  
   <script>
-  $(document).ready(function() {  
+  $(document).ready(function() {
+    
+  var nextMeetingDate;
+  
+  (function calculateNextMeetingDate() {
+    var candidate_date = Date.today().second().saturday();
+    var today_date = Date.today();
+    var meeting_remains_this_month = candidate_date.compareTo(today_date);
+  
+    if (meeting_remains_this_month >= 0) {
+      nextMeetingDate = candidate_date.toString("yyyy-M-d");
+    }
+  
+    else {
+      candidate_date = Date.today().next().month().second().saturday();
+      nextMeetingDate = candidate_date.toString("yyyy-M-d");
+    }  
+  })();
+  
+
+
+
+    
+    
+    
+    
+    
     (function meetingCalendarWidget() {
       $("#meeting-calendar").zabuto_calendar({
 			today:true,
