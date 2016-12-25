@@ -15,6 +15,6 @@ The Raspberry Pi SIG at MelbPC has had monthly meetings on the second Saturday o
 # Meeting Calendar
 
 <div style="margin:0;">
-<iframe src="/meeting-calendar.html" style="width:100vw; height:100vh;display:block;border:none;"></iframe>
+<iframe src="/meeting-calendar.html" style="width:70vw; height:100vh;display:block;border:none;"></iframe>
 </div>
 
