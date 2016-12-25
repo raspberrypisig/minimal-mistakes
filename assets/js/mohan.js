@@ -19,6 +19,12 @@ $(document).ready(function() {
     }  
   })();
   
+  function meetingCalendar() {
+      $("#meeting-calendar").zabuto_calendar({
+			today:true,
+			data: [ {"date": "2016-12-10", "badge":true, "title":"Monthly Meeting" }]
+			});   
+  }
 
 });
 
