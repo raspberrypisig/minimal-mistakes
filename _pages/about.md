@@ -11,3 +11,6 @@ The Raspberry Pi SIG at MelbPC has had monthly meetings on the second Saturday o
 - Show & Tell 
 - Latest News
 - Training Exercise
+
+#Meeting Calendar
+<div id="meeting-calendar"/>
