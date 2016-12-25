@@ -42,12 +42,12 @@
     
     
     
-    (function meetingCalendarWidget() {
+    (function meetingCalendarWidget(nextMeetingDate) {
       $("#meeting-calendar").zabuto_calendar({
 			today:true,
-			data: [ {"date": "2016-12-10", "badge":true, "title":"Monthly Meeting" }]
+			data: [ {"date": nextmeetingDate, "badge":true, "title":"Monthly Meeting" }]
 			});   
-  })();
+  })(nextMeetingDate);
     
   });
   
