@@ -19,6 +19,6 @@ The Raspberry Pi SIG at MelbPC has had monthly meetings on the second Saturday o
 </div>
 
 <div>
-<img src="/assets/img/backtohome.png"/>
+<img src="/assets/images/backtohome.png"/>
 </div>
 
