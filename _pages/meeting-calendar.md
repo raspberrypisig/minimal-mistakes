@@ -2,7 +2,7 @@
 title: Meeting Calendar
 permalink: /meeting-calendar/
 excerpt: Meeting Calendar
-layout: archive
+layout: archive-single
 header:
   overlay_image: /assets/images/headerbg-purple.svg
 ---
