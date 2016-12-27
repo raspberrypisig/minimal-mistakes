@@ -5,4 +5,6 @@
 2. Pages inside _pages directory
 3. Images under assets/images directory
 
-Content uses Github flavoured Markdown.
+
+Content uses Github flavoured Markdown 
+https://guides.github.com/features/mastering-markdown/
