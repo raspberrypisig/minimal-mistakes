@@ -3,6 +3,7 @@ layout: archive
 title: Categories
 ---
     <div>
+      <h2>All Categories</h2>  
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
      <span class="site-tag">
@@ -12,3 +13,10 @@ title: Categories
     </span>
     {% endfor %}
     </div>
+
+   <div>
+     <h2>Just the one in the request</h2>
+     {% for category in include.categories  %}
+     {{category}}
+     {% endfor %}
+</div>
