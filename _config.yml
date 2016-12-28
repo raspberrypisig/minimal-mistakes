@@ -244,7 +244,7 @@ defaults:
       comments: # true
       share: true
       related: true
-      permalink: /blog/:year/:month/:day/:title/
+      permalink: /:categories/:year/:month/:day/:title/
       header:
         overlay_image: /assets/images/headerbg-blue.svg
       
