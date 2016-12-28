@@ -1,11 +1,5 @@
 ---
-layout: page
+layout: mohan-category
+title: Hat
+categories: hat
 ---
-<div class="post-categories">
-  {% assign categories = page.categories %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
-
