@@ -16,7 +16,7 @@ title: Categories
 
    <div>
      <h2>Just the one in the request</h2>
-     {% for category in page.categories  %}
-     {{category}}
-     {% endfor %}
+     {% assign page_url =  page.url %}
+     {{page_url}}
+
 </div>
