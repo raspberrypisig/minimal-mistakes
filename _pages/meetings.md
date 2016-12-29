@@ -4,25 +4,15 @@ layout: archive
 permalink: /meetings/
 ---
 
-{% assign meetings = site.meetings %}
+{% assign meetings = site.meetings | sort: "order" %}
 <ul>
 {% for meeting in meetings %}
 <li>{{ meeting.title }}</li>
 {% endfor %}
 </ul>
-<div>
-<h2>Slug</h2>
 
-{% for meeting in meetings  %}
- {{ meeting.slug | split: "-" | jsonify }}
-{% endfor %}
-</div>
 
-<div>
-<h2>Create Associative Array</h2>
-{% assign newarray = "month|year" | split: '|' %}
-{{ newarray | jsonify }}
-</div>
+
 
 <div>
 <h2>Meeting jsonify</h2>
