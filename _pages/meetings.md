@@ -10,3 +10,8 @@ permalink: /meetings/
 <li>{{ meeting.title }}</li>
 {% endfor %}
 </ul>
+<div>
+{% for meeting in site.meetings %}
+  {{ meeting | json }}
+{% endfor %}
+</div>
