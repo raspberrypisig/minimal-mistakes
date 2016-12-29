@@ -4,7 +4,7 @@ layout: archive
 permalink: /meetings/
 ---
 
-{% assign meetings = site.meetings | sort: "order" %}
+{% assign meetings = site.meetings | sort: "order" | reverse %}
 <ul>
 {% for meeting in meetings %}
 <li>{{ meeting.title }}</li>
