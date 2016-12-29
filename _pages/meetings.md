@@ -14,8 +14,7 @@ permalink: /meetings/
 <h2>Slug</h2>
 
 {% for meeting in meetings  %}
- {% assign meetingslug = meeting.slug | split "-" %}
- {{ meetingslug | jsonify }}
+ {{ meeting | split "-" | jsonify }}
 {% endfor %}
 </div>
 <div>
