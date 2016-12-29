@@ -11,7 +11,5 @@ permalink: /meetings/
 {% endfor %}
 </ul>
 <div>
-{% for meeting in site.meetings %}
-  {{ meeting | json }}
-{% endfor %}
+
 </div>
