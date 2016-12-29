@@ -12,8 +12,9 @@ permalink: /meetings/
 </ul>
 <div>
 <h2>Slug</h2>
+{{ assign meetingslug = meeting.slug | split "-" }}
 {% for meeting in meetings  %}
-  {{ meeting.slug | split "-" }}
+  {{ meetingslug[0] }}
 {% endfor %}
 </div>
 <div>
