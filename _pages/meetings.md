@@ -17,6 +17,13 @@ permalink: /meetings/
  {{ meeting.slug | split: "-" | jsonify }}
 {% endfor %}
 </div>
+
+<div>
+<h2>Create Associative Array</h2>
+{% assign newarray = "month|year" | split: '|' %}
+{{ newarray | jsonify }}
+</div>
+
 <div>
 <h2>Meeting jsonify</h2>
 {% for meeting in meetings %}
