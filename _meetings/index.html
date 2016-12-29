@@ -2,4 +2,6 @@
 layout: archive-taxonomy
 title: Meetings
 ---
-{{site.collections.meetings}}
+{% for meeting in site.collections.meetings %}
+   {{meeting.title}}
+{% endfor}
