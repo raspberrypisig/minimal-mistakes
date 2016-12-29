@@ -230,6 +230,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  meetings:
+    output: true
+    permalink: /:collection/:path
 
 # Defaults
 defaults:
@@ -254,6 +258,17 @@ defaults:
       type: pages
     values:
       layout: archive
+     
+# _meetings
+  - scope:
+      path: ""
+      type: meetings
+    values:
+      layout:single
+      author_profile: false
+      share: false
+      
+
 
       
       
