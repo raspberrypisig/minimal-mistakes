@@ -44,8 +44,8 @@ permalink: /meetings/
 </div>
 
 
-
+{% assign pageurl =  page.url  | jsonify  %}
 <div>
 <h2>Meeting jsonify</h2>
-{{ page.url  | jsonify }}
+{{ pageurl }}
 </div>
