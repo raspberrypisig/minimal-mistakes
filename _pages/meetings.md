@@ -47,7 +47,5 @@ permalink: /meetings/
 
 <div>
 <h2>Meeting jsonify</h2>
-{% for meeting in meetings %}
-  {{ meeting | jsonify }}
-{% endfor %}
+{{ page.url  | jsonify }}
 </div>
