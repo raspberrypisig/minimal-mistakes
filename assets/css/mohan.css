@@ -83,10 +83,6 @@
 }
 
 .btn-custom{
-    background-color: transparent;
+    background-color: #444;
     font-size:18px;
-}
-
-.btn-custom pull-right {
-  background-color: #333;
 }
