@@ -18,7 +18,7 @@ permalink: /meetings/
                 
                 <div class="card-content">
                     <span class="card-title">{{ meeting.title }}</span>                    
-                    <button type="button" id="show" class="btn btn-custom pull-right" aria-label="Left Align">
+                    <button type="button" class="btn btn-custom pull-right" aria-label="Left Align">
                         <i class="fa fa-ellipsis-v"></i>
                     </button>
                 </div><!-- card content -->
