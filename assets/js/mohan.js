@@ -21,7 +21,10 @@ $(document).ready(function() {
   
 (function(){
 
-   
+     $('.card .card-image .pull-right').on('click',function(){        
+       // $('.card-reveal').slideToggle('slow');
+       $(this).parent().parent().find('.card-reveal').slideToggle('slow');
+    });   
   
      $('.card .card-image img').on('click',function(){        
        // $('.card-reveal').slideToggle('slow');
