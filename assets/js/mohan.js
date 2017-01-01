@@ -26,7 +26,8 @@ $(document).ready(function() {
     });
   
      $('.card .card-image img').on('click',function(){        
-        $('.card-reveal').slideToggle('slow');
+       // $('.card-reveal').slideToggle('slow');
+       $(this).parent().parent().find('.card-reveal').slideToggle('slow');
     });
     
     $('.card-reveal .close').on('click',function(){
