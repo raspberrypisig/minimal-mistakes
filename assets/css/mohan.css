@@ -120,6 +120,7 @@
 }
 
 .meetings .img-responsive {
+  width: 18em;
   max-width: 18em;
   height: auto;
 }
