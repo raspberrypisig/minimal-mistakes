@@ -21,9 +21,7 @@ $(document).ready(function() {
   
 (function(){
 
-    $('#show').on('click',function(){        
-        $('.card-reveal').slideToggle('slow');
-    });
+   
   
      $('.card .card-image img').on('click',function(){        
        // $('.card-reveal').slideToggle('slow');
