@@ -24,7 +24,7 @@ classes: meetings
                     </button>
                 </div><!-- card content -->
                 <div class="card-action">
-                    <a href="#" target="new_blank">Read More</a>
+                    <a href="{{ meeting.url }}" target="new_blank">Read More</a>
                 </div><!-- card actions -->
                 <div class="card-reveal">
                     <span class="card-title">{{ meeting.title }}</span> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
