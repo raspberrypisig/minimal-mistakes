@@ -117,6 +117,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 1em;
 }
 
 .meetings .img-responsive {
