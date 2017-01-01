@@ -5,12 +5,6 @@ permalink: /meetings/
 ---
 
 {% assign meetings = site.meetings | sort: "order" | reverse %}
-<ul>
-{% for meeting in meetings %}
-<li>{{ meeting.title }}</li>
-{% endfor %}
-</ul>
-
 
 <div class="container">
     <div class="row">    
@@ -23,7 +17,7 @@ permalink: /meetings/
                 </div><!-- card image -->
                 
                 <div class="card-content">
-                    <span class="card-title">Material Cards</span>                    
+                    <span class="card-title">{{ meeting.title }}</span>                    
                     <button type="button" id="show" class="btn btn-custom pull-right" aria-label="Left Align">
                         <i class="fa fa-ellipsis-v"></i>
                     </button>
@@ -41,9 +35,3 @@ permalink: /meetings/
     </div>
 </div>
 
-
-{% assign pageurl = page.url %}
-<div>
-<h2>Meeting jsonify</h2>
-{{ pageurl }}
-</div>
