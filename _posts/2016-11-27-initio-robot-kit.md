@@ -9,5 +9,7 @@ Bill S. Demo'd this at the November 2016 meeting.
 [Details here](http://4tronix.co.uk/store/index.php?rt=product/product&product_id=171)
 
 **EDIT:** Bill wanted me to highlight some further features:
+
 * autonomous operation with ultrasonic sensors
+
 * streams HD realtime video that is web accessible
