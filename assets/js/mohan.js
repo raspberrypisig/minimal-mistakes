@@ -24,6 +24,10 @@ $(document).ready(function() {
     $('#show').on('click',function(){        
         $('.card-reveal').slideToggle('slow');
     });
+  
+     $('.card .card-image img').on('click',function(){        
+        $('.card-reveal').slideToggle('slow');
+    });
     
     $('.card-reveal .close').on('click',function(){
         $('.card-reveal').slideToggle('slow');
