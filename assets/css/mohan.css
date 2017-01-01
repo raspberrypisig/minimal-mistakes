@@ -86,3 +86,20 @@
     background-color: #444;
     font-size:18px;
 }
+
+.card-reveal .close {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #333;
+  padding: 10px 16px 10px 16px;
+  text-decoration: none;
+}
+
+card-reveal .close:hover {
+  background-color: #000000;
+}
+
