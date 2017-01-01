@@ -15,6 +15,7 @@ permalink: /meetings/
 <div class="container">
     <div class="row">    
         <div class="mohan-col-md-6 mohan-col-md-offset-3">
+          {% for meeting in meetings %}  
             <div class="card">
                 <div class="card-image">
                     <img class="img-responsive" src="http://lorempixel.com/555/300/sports">
@@ -31,10 +32,11 @@ permalink: /meetings/
                     <a href="#" target="new_blank">Read More</a>
                 </div><!-- card actions -->
                 <div class="card-reveal">
-                    <span class="card-title">Card Title</span> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <span class="card-title">{{ meeting.title }}</span> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                     <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div><!-- card reveal -->
-            </div>
+            </div> <!-- card -->
+            {% endfor %}
         </div>
     </div>
 </div>
