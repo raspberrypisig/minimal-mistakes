@@ -9,7 +9,7 @@ classes: meetings
 
 <div class="container">
     <div class="row">    
-        <div class="mohan-col-md-6 mohan-col-md-offset-3">
+        <div class="card-container">
           {% for meeting in meetings %}  
             <div class="card">
                 <div class="card-image">
