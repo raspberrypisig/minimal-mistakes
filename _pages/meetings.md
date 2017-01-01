@@ -13,7 +13,7 @@ classes: meetings
           {% for meeting in meetings %}  
             <div class="card">
                 <div class="card-image">
-                    <img class="img-responsive" src="http://lorempixel.com/555/300/sports">
+                    <img class="img-responsive" src="{{ meeting.image }}">
                     
                 </div><!-- card image -->
                 
