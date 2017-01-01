@@ -2,6 +2,7 @@
 title: Meetings
 layout: archive
 permalink: /meetings/
+classes: meetings
 ---
 
 {% assign meetings = site.meetings | sort: "order" | reverse %}
