@@ -99,7 +99,7 @@
   text-decoration: none;
 }
 
-card-reveal .close:hover {
+.card-reveal .close:hover {
   background-color: #000000;
 }
 
