@@ -124,3 +124,10 @@
   max-width: 18em;
   height: auto;
 }
+
+.meetings .page__title {
+  text-align: center;
+  padding: 0.5em;
+}
+
+
