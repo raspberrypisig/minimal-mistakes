@@ -1,7 +1,7 @@
 ---
 title: Write Android Apps for Raspberry Pi 3 with Android Things 
 excerpt: Google involvement in Raspberry Pi
-image: http://cdn.gsmarena.com/imgroot/news/16/12/google-android-things-iot/inline/-728/gsmarena_003.jpg
+image: https://2.bp.blogspot.com/-wweNWuNWd4Q/WFpP9XPHriI/AAAAAAAAAhQ/blTbwrwIxoIBUdYs7_xncKwqVy9N1BRWwCLcB/s1600/google-android-things-operating-system.png
 categories: android
 ---
 Android Apps can now be run on Raspberry Pi 3. So Android developers who are familiar with writing apps to phone can now also target Raspberry Pi 3.
