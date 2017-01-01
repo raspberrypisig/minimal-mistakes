@@ -14,7 +14,7 @@ permalink: /meetings/
 
 <div class="container">
     <div class="row">    
-        <div class="col-md-6 col-md-offset-3">
+        <div class="mohan-col-md-6 mohan-col-md-offset-3">
             <div class="card">
                 <div class="card-image">
                     <img class="img-responsive" src="http://lorempixel.com/555/300/sports">
@@ -28,11 +28,7 @@ permalink: /meetings/
                     </button>
                 </div><!-- card content -->
                 <div class="card-action">
-                    <a href="#" target="new_blank">Link</a>
-                    <a href="#" target="new_blank">Link</a>                    
-                    <a href="#" target="new_blank">Link</a>
-                    <a href="#" target="new_blank">Link</a>
-                    <a href="#" target="new_blank">Link</a>
+                    <a href="#" target="new_blank">Read More</a>
                 </div><!-- card actions -->
                 <div class="card-reveal">
                     <span class="card-title">Card Title</span> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
