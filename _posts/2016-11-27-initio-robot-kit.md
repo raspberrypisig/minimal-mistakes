@@ -10,6 +10,5 @@ Bill S. Demo'd this at the November 2016 meeting.
 
 **EDIT:** Bill wanted me to highlight some further features:
 
-* autonomous operation with ultrasonic sensors
-
-* streams HD realtime video that is web accessible
+- autonomous operation with ultrasonic sensors
+- streams HD realtime video that is web accessible
