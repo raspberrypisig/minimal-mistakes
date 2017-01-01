@@ -28,7 +28,13 @@ classes: meetings
                 </div><!-- card actions -->
                 <div class="card-reveal">
                     <span class="card-title">{{ meeting.title }}</span> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    <p>
+                    <ul>
+                      <li> {{ meeting.dotpoint1 }} </li>
+                      <li> {{ meeting.dotpoint2 }} </li>
+                      <li> {{ meeting.dotpoint3 }} </li>
+                    </ul>
+                    </p>
                 </div><!-- card reveal -->
             </div> <!-- card -->
             {% endfor %}
