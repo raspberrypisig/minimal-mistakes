@@ -5,7 +5,7 @@ main:
   - title: "Meetings"
     url: /meetings/
   - title: "Wiki"
-    url: https://github.com/raspberrypisig/raspberrypisig.github.io/wiki/Raspberry-Pi-Moorabbin-Wiki  # - title: "Sample Posts"
+    url: https://github.com/raspberrypisig/raspberrypisig.github.io/wiki # - title: "Sample Posts"
   - title: "Github"
     url: https://github.com/raspberrypisig/raspberrypisig.github.io
   #   url: /year-archive/
