@@ -6,7 +6,7 @@ categories: linux
 ---
 In the past, when you asked some the question: 
 
-*** "How do I get a linux terminal in windows" ***
+* "How do I get a linux terminal in windows" *
 
 The answer was usually Cygwin or a variant thereof. But I found cygwin cumbersome.
 
