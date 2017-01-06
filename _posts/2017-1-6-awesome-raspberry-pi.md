@@ -9,15 +9,15 @@ I love lists. Top 10 programming languages, favourite PC games of 2016, that kin
 
 I've been living in a cave, recently I was alerted to awesome curated lists [here](https://github.com/sindresorhus/awesome) and 
 awesome list of awesomeness [here](https://github.com/bayandin/awesome-awesomeness). You can really overdose on these to get your geek fix on.
-Lots of content on progamming langages, databases, networing etc.
+Lots of content on progamming languages, databases, networking etc.
 
 
 ## Raspberry Pi Related
-[Raspberry Pi](https://github.com/thibmaek/awesome-raspberry-pi)
+[Awesome Raspberry Pi](https://github.com/thibmaek/awesome-raspberry-pi)
 
 [Awesome python](https://github.com/vinta/awesome-python)
 
-[Android Things](https://github.com/amitshekhariitbhu/awesome-android-things)
+[Awesome Android Things](https://github.com/amitshekhariitbhu/awesome-android-things)
 
 
 
