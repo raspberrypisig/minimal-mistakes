@@ -18,4 +18,7 @@ They all involve solder a two-pin header on the pinouts marked RUN, then connect
 
 [Another One](http://www.raspberry-pi-geek.com/Archive/2013/01/Adding-an-On-Off-switch-to-your-Raspberry-Pi)
 
+[Gadget Magazine](https://www.gadgetdaily.xyz/pipanther-interview/)
 
+## Shutdown Scripts
+* [Shutdown script 1](https://github.com/g0to/misc_scripts/blob/master/raspi_gpio_actions.sh)
