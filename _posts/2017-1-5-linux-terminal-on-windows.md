@@ -19,8 +19,7 @@ It is fairly lightweight. I found that to be useful, you need to add other linux
 [Download here](https://git-scm.com/downloads)
 
 # Mobaxterm
-Bill S. recommened this program to me for SSH. The more I investigate this program, the more I uncover. The number one feature for me is that 
-X11 forwrding is enabled automatically by default. This means that I can launch a desktop environment on PC remotely just by typing startx.
+Bill S. recommended this program to me for SSH. The more I investigate this program, the more I uncover. The number one feature for me is that X11 forwrding is enabled automatically by default. This means that I can launch a desktop environment on PC remotely just by typing startx. It also comes with a functional Bash shell.
 [Download here](http://mobaxterm.mobatek.net/download-home-edition.html)
 
 # Bash for Ubuntu for Windows
