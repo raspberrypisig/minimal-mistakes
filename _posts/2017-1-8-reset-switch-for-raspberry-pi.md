@@ -5,13 +5,13 @@ excerpt: This would be handy dandy but is it doable in Pi 3?
 categories: hardware
 ---
 
-The RUN header on the Raspberry pi 3 is now located near pin #39
+The RUN header on the Raspberry Pi 3 is now located near pin \#39
 
 ![RUN Header](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/rpi3runheader.jpg)
 
-Found lots of reference for Raspberry Pi 2, but would love to know how applicable it is to Raspberry Pi 3.
+Found lots of reference for Raspberry Pi 2, but not for Raspberry Pi 3.
 
-They all involve solder a two-pin header on the pinouts marked RUN, then connecting that to a momentary switch. I was also looking for fancy solutions like Wake-On-Lan, which I don't think the Pi supports. Or perhaps using an always-on Pi zero to somehow do it.
+They all involve solder a two-pin header on the pinouts marked RUN, then connecting that to a momentary switch. I was also looking for fancy solutions like Wake-On-Lan, which I don't think the Pi supports. 
 
 ## Links
 [Adafruit](https://blog.adafruit.com/2014/10/10/making-a-reset-switch-for-your-raspberry-pi-model-b-run-pads-piday-raspberrypi-raspberry_pi/)
