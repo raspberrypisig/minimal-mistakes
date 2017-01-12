@@ -14,7 +14,7 @@ awesome list of awesomeness [here](https://github.com/bayandin/awesome-awesomene
 ## Raspberry Pi Related
 [Awesome Raspberry Pi](https://github.com/thibmaek/awesome-raspberry-pi)
 
-[Awesome python](https://github.com/vinta/awesome-python)
+[Awesome Python](https://github.com/vinta/awesome-python)
 
 [Awesome Android Things](https://github.com/amitshekhariitbhu/awesome-android-things)
 
