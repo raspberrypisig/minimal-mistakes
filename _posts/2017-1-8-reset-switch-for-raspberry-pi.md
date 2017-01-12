@@ -7,7 +7,7 @@ categories: hardware
 
 The RUN header on the Raspberry pi 3 is now located near pin #39
 
-![RUN Header](https://github.com/raspberrypisig/raspberrypisig.github.io/edit/master/_posts/2017-1-8-reset-switch-for-raspberry-pi.md)
+![RUN Header](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/rpi3runheader.jpg)
 
 Found lots of reference for Raspberry Pi 2, but would love to know how applicable it is to Raspberry Pi 3.
 
