@@ -10,4 +10,4 @@ evaluation version available. Google Play Store also works (Angry birds was hard
 
 Download from [here](https://git.embedded.rwth-aachen.de/rtandroid/downloads/raspberry-pi/)
 
-Install Instructions [here](https://groups.google.com/forum/#!forum/android-rpi)
+Install Instructions [here](https://groups.google.com/forum/#!searchin/android-rpi/rtandroid$20installation$20lzip%7Csort:relevance/android-rpi/E-6MyQKSf-M/c3EvPpRZBAAJ)
