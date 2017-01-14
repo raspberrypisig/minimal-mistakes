@@ -9,7 +9,7 @@
 Content uses Github flavoured Markdown 
 https://guides.github.com/features/mastering-markdown/
 
-# Development Task Remaining
+## Development Tasks Remaining
 - [ ] Add previous and next month's monthly meetings to Meetings Calendar
 - [ ] Add REVEAL ALL/HIDE ALL button to Meetings Page
 - [ ] Add Search functionality (use Google CSE https://developers.google.com/custom-search/docs/element)
@@ -17,7 +17,7 @@ https://guides.github.com/features/mastering-markdown/
 - [ ] Add Sitemap
 - [ ] On IPad screen size, center align text 
 
-# Upcoming Articles
+## Upcoming Articles
 1. Create your own custom Raspbian image (NOOBS, PiBakery, Ansible)
 2. Using Raspberry Pi as a VPN gateway
 3. Where to store IOT data
