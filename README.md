@@ -26,3 +26,4 @@ https://guides.github.com/features/mastering-markdown/
 6. Cool Projects (CDTea)
 7. GPIO Zero and pigpio for remote GPIO control over the network
 8. Create Custom Dashboards (Pubnub, Keen Dashboards, Rickshaw)
+9. Boot off Ethernet using PXEboot (and use Ubuntu PC as the server, not another Raspberry Pi)
