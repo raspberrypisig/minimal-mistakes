@@ -10,13 +10,12 @@ Content uses Github flavoured Markdown
 https://guides.github.com/features/mastering-markdown/
 
 # Development Task Remaining
-- [] Add previous and next month's monthly meetings to Meetings Calendar
-- [] Add REVEAL ALL/HIDE ALL button to Meetings Page
-- [] Add Search functionality (use Google CSE https://developers.google.com/custom-search/docs/element)
-- [] Add SEO (Google Analytics)
-- [] Add Sitemap
-- [] On IPad screen size, center align text
-- [] 
+- [ ] Add previous and next month's monthly meetings to Meetings Calendar
+- [ ] Add REVEAL ALL/HIDE ALL button to Meetings Page
+- [ ] Add Search functionality (use Google CSE https://developers.google.com/custom-search/docs/element)
+- [ ] Add SEO (Google Analytics)
+- [ ] Add Sitemap
+- [ ] On IPad screen size, center align text 
 
 # Upcoming Articles
 1. Create your own custom Raspbian image (NOOBS, PiBakery, Ansible)
