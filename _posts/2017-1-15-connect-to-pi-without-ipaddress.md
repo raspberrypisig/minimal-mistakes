@@ -22,6 +22,6 @@ The default user name is pi but more importantly the default hostname is raspber
 If you install a program called Bonjour Print Services [here](https://support.apple.com/kb/dl999?locale=en_US) (be careful in the installation) - then
 you simply need to use **raspberrypi.local**  instead of the IP address. 
 
-If you have already had ITunes installed, you're all set and you don't need to install Bonjour Print Services.
+If you have already had iTunes installed, you're all set and you don't need to install Bonjour Print Services.
 
 
