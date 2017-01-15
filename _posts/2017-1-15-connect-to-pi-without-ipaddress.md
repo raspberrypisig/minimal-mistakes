@@ -24,4 +24,6 @@ you simply need to use **raspberrypi.local**  instead of the IP address.
 
 If you have already had iTunes installed, you're all set and you don't need to install Bonjour Print Services.
 
+The technology this is using is called zero-configuration networking or zeroconf. Mac devices have support for it out of the box, while linux also supports it through avahi.
+
 
