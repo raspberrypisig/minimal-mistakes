@@ -13,7 +13,7 @@ header:
 
 # Google Map
 
-[CLick here for Google Map of MelbPC Users Group](https://www.google.com.au/maps/place/479+Warrigal+Rd,+Moorabbin+VIC+3189/@-37.94525,145.0757013,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad66c761be85d8d:0x2ef65571792436f1!8m2!3d-37.94525!4d145.07789?hl=en)
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.365541556025!2d145.07570131532265!3d-37.94524997972872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66c761be85d8d%3A0x2ef65571792436f1!2s479+Warrigal+Rd%2C+Moorabbin+VIC+3189!5e0!3m2!1sen!2sau!4v1484537763564" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
 
