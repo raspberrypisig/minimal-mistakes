@@ -4,7 +4,7 @@ image: https://yt3.ggpht.com/-2fDBlhe14zQ/AAAAAAAAAAI/AAAAAAAAAAA/DBU8ml1ysDA/s9
 excerpt: Useful especially when you are travelling with your Pi 
 categories: networking
 ---
-If you don't know the IP address of your Raspberry Pi, how can you connect to it via SSH or VPN?
+If you don't know the IP address of your Raspberry Pi, how can you connect to it via SSH or VNC?
 
 One way is to download a program like Advanced IP Scanner [here](http://filehippo.com/download_advanced_ip_scanner/)
 and find the IP address.
