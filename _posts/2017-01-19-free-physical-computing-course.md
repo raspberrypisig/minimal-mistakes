@@ -3,6 +3,7 @@ title: Free Course In Physical Computing and Python
 excerpt: Teaching Physical Computing with Raspberry Pi and Python
 image: https://ugc.futurelearn.com/uploads/images/fe/26/thumbnail_fe26d760-c710-46e9-8710-bbf255533c15.jpg
 categories: courses
+modified: 2017-01-20
 ---
 Free online course created by the Raspberry Pi Foundation. The course begins February 20 2017.
 
