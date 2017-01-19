@@ -1,4 +1,4 @@
-{% capture page_categories %}{% for category in page.categories %}{{ category | downcase }}#{{ category }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% capture page_categories %}{% for category in site.categories %}{{ category | downcase }}#{{ category }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 
 <div class="melbpclocation">
   <h2>Location</h2>
