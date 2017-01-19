@@ -1,4 +1,4 @@
-
+{% capture page_categories %}{% for category in page.categories %}{{ category | downcase }}#{{ category }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 
 <div class="melbpclocation">
   <h2>Location</h2>
@@ -15,5 +15,5 @@
   </div>
 <div class="tagcloud">
   <h2>Tags</h2>
-  
+  <div>{{ page_categories | jsonify }}</div>
 </div>
