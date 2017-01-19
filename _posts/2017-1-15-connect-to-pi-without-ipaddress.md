@@ -11,7 +11,7 @@ and find the IP address.
 
 ![Advanced IP Scanner](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/advancedipscanner.jpg)
 
-(Remember to untick View->Show Dead)
+(Remember to untick View->Show Dead Devices)
 
 The other method relies on you knowing the hostname of the Pi. How do you do that? Open a terminal.
 
