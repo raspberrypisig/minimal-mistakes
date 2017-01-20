@@ -1,6 +1,6 @@
 ---
 title: Adventures in Bluetooth Low Energy - using gatttool
-categories: bluetooth BLE
+categories: bluetooth
 excerpt: Talk Bluetooth Low Energy from the command line on the Pi 
 image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/gattool.jpg 
 ---
