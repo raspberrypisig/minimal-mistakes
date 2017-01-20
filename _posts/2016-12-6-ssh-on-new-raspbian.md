@@ -1,6 +1,6 @@
 ---
 title: SSH on New Raspbian Image
-categories: [raspbian,linux]
+categories: raspbian
 excerpt: SSH is disabled by default on new Raspbian 
 image: /assets/images/enablessh.jpg
 ---
