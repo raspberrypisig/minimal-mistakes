@@ -1,0 +1,11 @@
+---
+layout: archive
+title: Posts related to Robots
+---
+<ul>
+  {% for post in site.categories.robot %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
