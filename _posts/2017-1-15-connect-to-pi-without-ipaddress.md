@@ -2,7 +2,7 @@
 title: Connect to Raspberry Pi without knowing IP Address
 image: https://yt3.ggpht.com/-2fDBlhe14zQ/AAAAAAAAAAI/AAAAAAAAAAA/DBU8ml1ysDA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
 excerpt: Useful especially when you are travelling with your Pi 
-categories: networking
+categories: linux, networking
 ---
 If you don't know the IP address of your Raspberry Pi, how can you connect to it via SSH or VNC?
 
