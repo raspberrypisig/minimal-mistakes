@@ -3,7 +3,7 @@ layout: archive
 ---
 <div class="category-tag-list">
   <h2>All Categories</h2>  
-  {% assign categories = site.categories | sort | downcase %}
+  {% assign categories = site.categories | sort %}
   {% for category in categories %}
      <div  class="site-tag">
         <a class="page__taxonomy-item" href="{{ category | first | slugify }}">
