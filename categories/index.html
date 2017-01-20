@@ -1,22 +1,12 @@
----
-layout: archive
-title: Categories
----
-    <div>
-      <h2>All Categories</h2>  
-    {% assign categories = site.categories | sort %}
-    {% for category in categories %}
-     <span class="site-tag">
-        <a href="{{ category | first | slugify }}">
-                {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
+<div class="category-tag-list">
+  <h2>All Categories</h2>  
+  {% assign categories = site.categories | sort | downcase %}
+  {% for category in categories %}
+     <div  class="site-tag">
+        <a class="page__taxonomy-item" href="{{ category | first | slugify }}">
+                {{ category[0] | replace:'-', ' ' }} 
         </a>
-    </span>
-    {% endfor %}
     </div>
-
-   <div>
-     <h2>Just the one in the request</h2>
-     {% assign page_url =  page.url %}
-     {{page_url}}
-
+    {% endfor %}
 </div>
+
