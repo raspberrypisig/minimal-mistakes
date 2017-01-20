@@ -1,15 +1,15 @@
 ---
 layout: archive
+title: Categories
 ---
-<div class="category-tag-list-wrapper">
+<div class="categories-index">
+  <h2>All Categories</h2>  
   {% assign categories = site.categories | sort %}
-  <div class="category-tag-list">
   {% for category in categories %}
-
-        <a class="page__taxonomy-item" href="{{ category | first | slugify }}">
-                {{ category[0] | replace:'-', ' ' }} 
-        </a>
-   {% endfor %}
-   </div> 
+    <span class="site-tag">
+      <a href="{{ category | first | slugify }}">
+        {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
+      </a>
+    </span>
+  {% endfor %}
 </div>
-
