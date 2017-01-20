@@ -1,0 +1,14 @@
+---
+layout: archive
+---
+<div class="category-tag-list-wrapper">
+  {% assign categories = site.categories | sort %}
+  <div class="category-tag-list">
+  {% for category in categories %}
+
+        <a class="page__taxonomy-item" href="{{ category | first | slugify }}">
+                {{ category[0] | replace:'-', ' ' }} 
+        </a>
+   {% endfor %}
+   </div> 
+</div>
