@@ -2,11 +2,11 @@
   {% assign categories = site.categories | sort %}
   <div class="category-tag-list">
   {% for category in categories %}
-    {℅ unless category contains "," %}
+    
         <a class="page__taxonomy-item" href="/categories/{{ category | first | slugify }}">
                 {{ category[0] | replace:'-', ' ' | downcase }} 
         </a>
-     {% endunless %}
+     
    {% endfor %}
    </div> 
 </div>
