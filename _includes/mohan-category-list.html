@@ -3,10 +3,11 @@
   <div class="category-tag-list">
   {% for category in categories %}
     {% assign categoryname = category | first %}    
+    {% unless categoryname contains "," %}
         <a class="page__taxonomy-item" href="/categories/{{ category | first | slugify }}">
                 {{ category[0] | replace:'-', ' ' | downcase }} 
         </a>
-     
+    {% endunless %}
    {% endfor %}
    </div> 
 </div>
