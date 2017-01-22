@@ -6,7 +6,8 @@ title: Categories
   <h2>All Categories</h2>  
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
-    {{ category | jsonify }}
+    {% assign categoryname = category | first %}
+    {{ categoryname | jsonify }}
     <span class="site-tag">
       <a href="{{ category | first | slugify }}">
         {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
