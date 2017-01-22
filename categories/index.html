@@ -7,12 +7,12 @@ title: Categories
   {% assign categories = site.categories | sort %}
   {% for category in categories %}
     {% assign categoryname = category | first %}
-     
+    {% unless categoryname contains "," %}
     <span class="site-tag">
       <a href="{{ category | first | slugify }}">
         {{ categoryname | replace:'-', ' ' }} ({{ category | last | size }})
       </a>
     </span>
-   
+     {% endunless %}
   {% endfor %}
 </div>
