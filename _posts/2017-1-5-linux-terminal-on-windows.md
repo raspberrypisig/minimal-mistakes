@@ -4,7 +4,7 @@ excerpt: My current favourite is Bash on Ubuntu on Windows
 image: https://fossbytes.com/wp-content/uploads/2016/03/windows-10-bash-shell-3.jpg
 categories: linux
 ---
-In the past, when you asked some the question: 
+In the past, when you asked someone the question: 
 
 > How do I get a linux terminal in windows?
 
