@@ -12,6 +12,8 @@ The Raspberry Pi SIG at MelbPC has had monthly meetings on the second Saturday o
 - Latest News
 - Training Exercise
 
+[Click here for Past Meetings](https://raspberrypisig.github.io/meetings/)
+
 # Meeting Calendar
 
 <div style="margin:0;">
@@ -27,3 +29,5 @@ The Raspberry Pi SIG at MelbPC has had monthly meetings on the second Saturday o
 
 # Sister Groups at MelbPC
 [Microcontroller Moorabbin](http://melbmcu.weebly.com/)
+
+[Microcontroller Workshop](http://www.melbpc.org.au/interest-groups-resources/sig-list/)
