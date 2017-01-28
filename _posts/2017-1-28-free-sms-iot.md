@@ -13,6 +13,7 @@ Enter Telstra (they are always there to help!) . It has a free limit of 1000 SMS
 
 
 Basic Steps:
+
 1. Register, then create an "app" in their backend, this will give you the "API Keys" you need
 
 2. You first make a HTTP request for an authentication token (OAuth2)
