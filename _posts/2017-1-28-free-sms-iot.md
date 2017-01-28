@@ -2,8 +2,8 @@
 title: Send Free SMS in your IOT Project
 excerpt: From an unlikely source
 description: Telstra SMS API useful for IOT Projects
-image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/telstrasmsapi.jpg
 categories: iot
+image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/telstrasmsapi.jpg
 ---
 There are times in your IOT projects when you want to send notifications of certain interesting event, example intruder detected. Sending an SMS is one such mechanism.
 
