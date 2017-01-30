@@ -8,4 +8,4 @@ categories: iot
 [Nodered Dashboards](https://github.com/node-red/node-red-dashboard)
 
 
-Rob C. told me about this. I was investigating alternative solutions but this one is really cool. 
+Rob C. told me about this. I was investigating alternative solutions but this one is really cool. Requires learning Node RED (Installed by default on later versions of Raspbian).
