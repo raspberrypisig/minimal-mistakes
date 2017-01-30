@@ -1,6 +1,6 @@
 ---
 title: Raspberry Pi Co-Location in Melbourne Australia
-excerpt: Should MelbPC get in this space?
+excerpt: Should MelbPC get into this space?
 image: https://pbs.twimg.com/media/BrWt6KcCUAAgJ5V.jpg
 description: co-location for Raspberry Pi
 categories: iot
