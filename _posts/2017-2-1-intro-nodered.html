@@ -39,6 +39,19 @@ Nodes generally execute when they receive an incoming message (ie. the node prec
 node to start the ball rolling, but there are others such as serial,mqtt that already run when you hit the Deploy button.
 
 
+So that was a simple example, let's just add one more complication.
 
+Write a program as follows: It should print the following:
 
+"
+Hello World!
+Your Public IP Address is xxx.xxx.xxx.xxx
+"
+
+```javascript
+var context = this.context();
+var count = context.get('count') || 0;
+count = (count == 0)? 1:0;
+context.set('count',count);
+```
 
