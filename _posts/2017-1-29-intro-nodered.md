@@ -1,6 +1,6 @@
 ---
 title: Intro to NodeRED
-excerpt: Forget python, this is the real deal
+excerpt: Forget python or scratch, this is the real deal
 description: NodeRED for beginners
 image: https://cdn-learn.adafruit.com/guides/images/000/000/483/medium800/node-red-screenshot.png
 categories: iot
@@ -27,7 +27,7 @@ In the example above, we have dragged and dropped the **Inject** and **Debug** o
 on the white boxes on the nodes. 
 
 Here is how the Inject node is configured.
-
+![Inject node NodeRED](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow2.jpg)
 
 Here is how the Debug node is configured.
 
