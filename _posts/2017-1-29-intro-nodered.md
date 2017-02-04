@@ -74,7 +74,7 @@ import requests
 
 ipaddress = requests.get("http://wtfismyip.com/text");
 print("Hello World!")
-print("Your public IP address is: ", ipaddress.text)
+print("Your public IP address is ", ipaddress.text)
 ```
 
 ```javascript
