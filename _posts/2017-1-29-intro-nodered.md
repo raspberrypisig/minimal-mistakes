@@ -48,15 +48,23 @@ To understand what the connection between the two nodes mean, we have to look a 
 Nodes generally execute when they receive an incoming message (ie. the node preceding it sends it something). You usually use the inject
 node to start the ball rolling, but there are others such as serial,mqtt that already run when you hit the Deploy button.
 
+To understand what is really happening, let's modify our example slightly.
 
-So that was a simple example, let's just add one more complication.
+![Modified example NodeRED](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow5.jpg)
 
-Write a program as follows: It should print the following:
+![Modified example debug](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow6.jpg)
 
-"
-Hello World!
-Your Public IP Address is xxx.xxx.xxx.xxx
-"
+![Modified example inject](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow7.jpg)
+
+![Modified example complete](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow8.jpg)
+
+Let's complicate a bit more.
+
+>Write a program as follows: It should print the following:
+>
+>Hello World!
+>Your Public IP Address is xxx.xxx.xxx.xxx
+>
 
 ```javascript
 var context = this.context();
