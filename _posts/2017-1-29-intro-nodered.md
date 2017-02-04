@@ -8,6 +8,7 @@ categories: iot
 If scratch is "Programming for kids", then NodeRED is "programming for adults that love Scratch". I'd venture to say that once you learn 
 the NodeRED way, you will kiss goodbye ever wanting to write Python again!
 
+
 To begin, start NodeRED from Pi by selecting Programming->NodeRED from the top menu. Once it is done, open Chromium browser and type 
 **http://localhost:1880** . Let's write a NodeRED program.
 
