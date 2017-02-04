@@ -67,6 +67,16 @@ Let's complicate a bit more.
 >**Your Public IP Address is xxx.xxx.xxx.xxx**
 >
 
+We will start with a detour and write the program in python first.
+
+```python
+import requests
+
+ipaddress = requests.get("http://wtfismyip.com/text");
+print("Hello World!")
+print("Your public IP address is: ", ipaddress.text)
+```
+
 ```javascript
 var context = this.context();
 var count = context.get('count') || 0;
