@@ -35,6 +35,8 @@ The inject node is useful for initiating the message flow between nodes.
 Here is how the Debug node is configured.
 ![Debug node NodeRED](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow4.jpg)
 
+The complete flow can be downloaded [here](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/noderedexample.flow)
+
 Once the flow is configured, we are to deploy and run our first flow in NodeRED.
 
 ![Example flow NodeRED](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow9.jpg)
