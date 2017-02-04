@@ -27,13 +27,19 @@ In the example above, we have dragged and dropped the **Inject** and **Debug** o
 on the white boxes on the nodes. 
 
 Here is how the Inject node is configured.
+
 ![Inject node NodeRED](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow2.jpg)
 
+The inject node is useful for initiating the message flow between nodes. 
+
 Here is how the Debug node is configured.
+![Debug node NodeRED](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow4.jpg)
 
+Once the flow is configured, we are to deploy and run our first flow in NodeRED.
 
-When you click **Deploy** at the top, nothing happens. To get you program to run, click on the left-side of the Inject node. You should see
-the following output on the Debug tab to the right.
+![Example flow NodeRED](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow9.jpg)
+
+When you click **Deploy** at the top, nothing happens. To get you program to run, click on the left-side of the Inject node, which triggers a message that is sent to the next node. You should see the output on the Debug tab to the right.
 
 To understand what the connection between the two nodes mean, we have to look a the concept of message passing.
 
