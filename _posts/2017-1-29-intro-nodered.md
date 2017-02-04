@@ -2,7 +2,7 @@
 title: Intro to NodeRED
 excerpt: Forget python, this is the real deal
 description:NodeRED for beginners
-image: https://cdn-learn.adafruit.com/guides/images/000/000/483/medium800/node-red-screenshot.png?1448301600
+image: https://cdn-learn.adafruit.com/guides/images/000/000/483/medium800/node-red-screenshot.png
 categories: iot
 ---
 
