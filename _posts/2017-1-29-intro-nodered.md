@@ -62,8 +62,9 @@ Let's complicate a bit more.
 
 >Write a program as follows: It should print the following:
 >
->Hello World!
->Your Public IP Address is xxx.xxx.xxx.xxx
+>**Hello World!**
+>
+>**Your Public IP Address is xxx.xxx.xxx.xxx**
 >
 
 ```javascript
