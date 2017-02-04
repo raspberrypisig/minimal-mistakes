@@ -18,7 +18,9 @@ To begin, start NodeRED from Pi by selecting Programming->NodeRED from the top m
 #### Flow
 A NodeRED program is called a flow. Here is an example of a flow.
 
-You can run a number of flows at the same time.
+![Example Flow Hello World](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow1.jpg)
+
+You can run a number of flows at the same time. You export and import flows that others have written or that you want to share with others.
 
 #### Node
 In the example above, we have dragged and dropped the **Inject** and **Debug** onto the design area and connected them together by clicking 
