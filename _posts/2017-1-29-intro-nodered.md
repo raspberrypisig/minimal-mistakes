@@ -77,10 +77,21 @@ print("Hello World!")
 print("Your public IP address is ", ipaddress.text)
 ```
 
-```javascript
-var context = this.context();
-var count = context.get('count') || 0;
-count = (count == 0)? 1:0;
-context.set('count',count);
-```
+Now for the NodeRED version.
+
+![NodeRED version of final example](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow10.jpg)
+
+Here we introduce three new nodes: **function**, **http request** and **template**.
+
+![NodeRED version of final example](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow11.jpg)
+
+![NodeRED version of final example](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow12.jpg)
+
+![NodeRED version of final example](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow13.jpg)
+
+![NodeRED version of final example](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow14.jpg)
+
+![NodeRED version of final example](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow15.jpg)
+
+
 
