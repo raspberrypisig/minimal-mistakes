@@ -95,5 +95,8 @@ Here we introduce three new nodes: **function**, **http request** and **template
 
 ![NodeRED version of final example](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/nodered-example-flow15.jpg)
 
+The final version can be downloaded [here](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/noderedexample.flow)
 
-
+# Useful Resource
+[Import a NodeRED flow](http://developers.sensetecnic.com/article/how-to-import-a-node-red-flow/)
+[NodeRED online free instance with FRED](https://fred.sensetecnic.com/)
