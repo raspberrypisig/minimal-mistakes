@@ -5,6 +5,7 @@ description:NodeRED for beginners
 image: https://cdn-learn.adafruit.com/guides/images/000/000/483/medium800/node-red-screenshot.png?1448301600
 categories: iot
 ---
+
 If scratch is "Programming for kids", then NodeRED is "programming for adults that love Scratch". I'd venture to say that once you learn 
 the NodeRED way, you will kiss goodbye ever wanting to write Python again!
 
