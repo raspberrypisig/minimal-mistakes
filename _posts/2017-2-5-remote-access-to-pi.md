@@ -8,7 +8,8 @@ categories: iot
 There are occassions when you need to gain remote access to your Raspberry Pi, but either you don't want to fumble around trying to reconfigure 
 your router or install SSH, VNC, VPNs etc, or you don't have access on the network on which the Pi is sitting.
 
-On those occasions, you can opt for a third-party service. The article from Raspberry Pi website linked below mentions third-party services.
+On those occasions, you can opt for a third-party service. The article from Raspberry Pi website linked below mentions 2 third-party services that provide a free-tier offering.
+
 Haven't tried them yet, if I do, will update this blog post.
 
 ## Links
