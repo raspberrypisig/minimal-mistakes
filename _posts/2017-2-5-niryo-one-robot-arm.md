@@ -5,7 +5,7 @@ description: niryo one robot
 image: /assets/image/niryo-one.jpg
 categories: robot
 ---
-[![Niryo One Intro Video](https://img.youtube.com/vi/tjkzgRQHT34/0.jpg)](https://www.youtube.com/watch?v=tjkzgRQHT34)
+<iframe width="640" height="360" src="https://youtube.com/embed/tjkzgRQHT34?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## Links
 
