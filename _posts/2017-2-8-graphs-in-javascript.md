@@ -12,6 +12,7 @@ Using the wonderful [OpenWeatherMap service](https://openweathermap.org/api), ob
 
 {% gist 32e1399e26e3f174d1a7504abdd37b1f %}
 
+The only data I'm interested in is the temperatures, so I need to write a little python script to extract only the relevant data.
 
 ## n3-charts
 
