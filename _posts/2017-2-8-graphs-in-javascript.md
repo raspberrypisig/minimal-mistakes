@@ -26,7 +26,7 @@ Only interested in showing temperature data.
 {% gist fb6d764c5d79ceff6e9019614aab9baa %}
 
 ### Result
-![Highcharts Temp Data](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/highcharts.png)
+![Highcharts Temp Data](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/highcharts.jpg)
 
 
 ## n3-charts
