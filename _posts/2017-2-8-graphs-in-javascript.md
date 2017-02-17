@@ -12,7 +12,7 @@ To get some test data, I am using the wonderful [OpenWeatherMap service](https:/
 
 [http://api.openweathermap.org/data/2.5/forecast?q=Melbourne,AU&units=metric&appid=YOUR_API_KEY](http://api.openweathermap.org/data/2.5/forecast?q=Melbourne,AU&units=metric&appid=YOUR_API_KEY)
 
-The result is the following in JSON format:
+The result is something like the following(JSON format):
 
 {% gist 32e1399e26e3f174d1a7504abdd37b1f %}
 
