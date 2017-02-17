@@ -18,6 +18,8 @@ The result is something like the following(JSON format):
 
 Only interested in showing temperature data. 
 
+## Highcharts
+
 ### highcharts.html
 {% gist 84e50df5606cf8933d82733e169da95e %}
 
@@ -35,7 +37,7 @@ Only interested in showing temperature data.
 ## morrisjs
 
 
-## highcharts
+
 
 ## c3.js
 
