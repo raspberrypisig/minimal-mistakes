@@ -23,7 +23,7 @@ Only interested in showing temperature data.
 
 
 ### extract-plot-data.js
-{% gist fb6d764c5d79ceff6e9019614aab9baa/raw/121dfb03e2c3af6cc6b873ff82d1e51bf3d0410e %}
+{% gist fb6d764c5d79ceff6e9019614aab9baa %}
 
 ### Result
 ![Highcharts Temp Data](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/highcharts.png)
