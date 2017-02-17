@@ -10,7 +10,7 @@ categories: web
 
 To get some test data, I am using the wonderful [OpenWeatherMap service](https://openweathermap.org/api). To use this service, you need to obtain an API key, then browse to the following address:
 
-[(http://api.openweathermap.org/data/2.5/forecast?q=Melbourne,AU&units=metric&appid=YOUR_API_KEY](http://api.openweathermap.org/data/2.5/forecast?q=Melbourne,AU&units=metric&appid=YOUR_API_KEY)
+[http://api.openweathermap.org/data/2.5/forecast?q=Melbourne,AU&units=metric&appid=YOUR_API_KEY](http://api.openweathermap.org/data/2.5/forecast?q=Melbourne,AU&units=metric&appid=YOUR_API_KEY)
 
 The result is the following in JSON format:
 
