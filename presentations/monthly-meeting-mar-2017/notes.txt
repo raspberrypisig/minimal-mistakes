@@ -1,0 +1,68 @@
+Slide 1
+-------
+- website from melbpc website
+- also website listed in March edition of PC Update (thanks to Ian Rankin)
+
+
+Slide 2
+-------
+Club's 3d printer looks something like this.
+
+Slide 3
+-------
+Specs:
+Brand: CTC
+Look like: Geeetech Prusa I3 Pro B
+Build size: 200x200x200 (mm)
+
+
+
+Slides 2a-2x
+------------
+The printer came as a kit, it had to be assembled.
+Acknowledge Brian Davis and John Shirt
+
+
+Slide 3
+-------
+Control board
+
+
+Slide 4
+-------
+First step: need STL file of your 3D object to print
+Two options:
+1. Find one from the internet 
+   - thingiverse.com
+2. Make your own
+
+
+Slide 5
+-------
+Thingiverse.com
+
+
+Slide 6
+-------
+Sketchup
+123d
+Fusion 360
+FreeCAD
+Catia
+
+Slide 7
+-------
+Demo (using Octoprint)
+
+
+
+Slide 8
+-------
+Technical documentation
+https://github.com/microcontrollersig/melbpc3DPrinter/
+
+
+Octoprint
+https://octopi.octoprint.org/
+
+
