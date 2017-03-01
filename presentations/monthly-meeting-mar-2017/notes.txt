@@ -1,54 +1,73 @@
+Prep
+----
+1. Ask Phil to move port 100 to port 78
+2. Display plastic part from garage
+3. Include SD card holder & shopping trolley tokens
+
 Slide 1
 -------
+- rpi meeting second saturday of the month.
 - website from melbpc website
 - also website listed in March edition of PC Update (thanks to Ian Rankin)
 
-
 Slide 2
 -------
-Club's 3d printer looks something like this.
+- Brand: CTC
+- proposal to buy put to committee about a year ago.
+- price was $380, incl. 1kg filament (PLA plastic around $35)
+- bought from ebay
+- ways to characterise the 3d printer 
+   * budget, no-frills
+   * not a turnkey product   
 
+   
 Slide 3
--------
-Specs:
-Brand: CTC
-Look like: Geeetech Prusa I3 Pro B
-Build size: 200x200x200 (mm)
-
-
-
-Slides 2a-2x
+--------
+Modifications:
+- enclosure & LED lighting
+- computer power supply
+- metal base for increase rigidity
+- buildtak/PEI sheet (sticks too well/ adjust limit switch on the Z-axis)
+   
+Slides 4
 ------------
 The printer came as a kit, it had to be assembled.
-Acknowledge Brian Davis and John Shirt
+Not mechanically minded, so I enlisted the help of Brian Davis and John Shirt
+Prusa I3 design (open-source, known quantity -  parts are readily available)
+reprap printer.
 
-
-Slide 3
+Slide 5
 -------
 Control board
-
+(connect thermistor, stepper motors, and the extruder)
+(upload a program to the board - GCODE)
 
 Slide 4
+-------
+Raspberry pi
+
+Slide 5
+--------
+Octoprint
+Web-interface
+Network-connected
+Computer doesn't have to be physically connected to the control board
+
+Slide 6
 -------
 First step: need STL file of your 3D object to print
 Two options:
 1. Find one from the internet 
    - thingiverse.com
 2. Make your own
-
+Step 2: Let Octoprint to the rest
 
 Slide 5
 -------
 Thingiverse.com
 
 
-Slide 6
--------
-Sketchup
-123d
-Fusion 360
-FreeCAD
-Catia
+
 
 Slide 7
 -------
@@ -61,8 +80,7 @@ Slide 8
 Technical documentation
 https://github.com/microcontrollersig/melbpc3DPrinter/
 
-
 Octoprint
-https://octopi.octoprint.org/
+
 
 
