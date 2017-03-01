@@ -10,6 +10,6 @@ categories: hardware
 # Presentation links
  [Presentation - online](https://raspberrypisig.github.io/presentations/monthly-meeting-mar-2017/presentation.html)
  
- [Presentation - Github](https://raspberrypisig.github.io/presentations/monthly-meeting-mar-2017/melbpc-montly-meeting-mar-2017.pdf)
+ [Presentation PDF - Github](https://github.com/raspberrypisig/raspberrypisig.github.io/blob/master/presentations/monthly-meeting-mar-2017/presentation.pdf)
  
- [Presentation - PDF Direct Download](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/presentations/monthly-meeting-mar-2017/melbpc-montly-meeting-mar-2017.pdf)
+ [Presentation PDF - Direct Download](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/presentations/monthly-meeting-mar-2017/presentation.pdf)
