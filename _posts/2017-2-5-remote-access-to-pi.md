@@ -2,7 +2,7 @@
 title: Remote Access to Raspberry PI using third-party service
 excerpt: Remote to pi without configuring routers
 description: Remote access alernatives to SSH and VNC
-modified: 2017-3-4
+modified: 2017-3-11
 image: https://hackster.imgix.net/uploads/cover_image/file/67894/Untitled.png?auto=compress%2Cformat&w=900&h=675&fit=min
 categories: iot
 ---
