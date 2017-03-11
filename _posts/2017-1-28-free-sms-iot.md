@@ -4,6 +4,7 @@ excerpt: From an unlikely source
 description: Telstra SMS API useful for IOT Projects
 categories: iot
 image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/telstrasmsapi.jpg
+modified: 2017-3-11
 ---
 There are times in your IOT projects when you want to send notifications of certain interesting event, example intruder detected. Sending an SMS is one such mechanism.
 
@@ -25,3 +26,7 @@ Basic Steps:
 Introduction and Setup [here](https://dev.telstra.com/content/sms-api-0)
 
 User Guide [here](https://dev.telstra.com/content/sms-getting-started)
+
+My Code for Python [here](https://gist.githubusercontent.com/raspberrypisig/8b9ecbc578bbf01e38b3d43fd961e0cd/raw/d15d0651561f1c5a302413fff4a4ed20bf8d8e41/sms-telstra-api.py)
+
+My Code for NodeRED [here](https://gist.githubusercontent.com/raspberrypisig/31753bf1f4d97a1f71f9184ca72fe9ba/raw/58696ff0fc58d4720865192254622c2102ba1cbb/sms-telstra-api.flow)
