@@ -24,7 +24,7 @@ Only interested in showing temperature data.
 {% gist 84e50df5606cf8933d82733e169da95e %}
 
 Rob's charts in Highcharts (uses ngrok to view):
-https://cloud.githubusercontent.com/assets/7085477/24078394/5bdb4aaa-0cc0-11e7-83ad-43bc7e93ce3c.png
+(https://cloud.githubusercontent.com/assets/7085477/24078394/5bdb4aaa-0cc0-11e7-83ad-43bc7e93ce3c.png)
 
 
 ### extract-plot-data.js
