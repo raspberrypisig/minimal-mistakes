@@ -17,7 +17,7 @@ links2 -g <picture.jpg>
 
 Example result:
 
-[! [ Links2 viewer ](https://cloud.githubusercontent.com/assets/7085477/24129460/f5fe69e2-0e36-11e7-8722-e68e1642058e.png)]
+[! [Highcharts Temp Data](https://cloud.githubusercontent.com/assets/7085477/24129460/f5fe69e2-0e36-11e7-8722-e68e1642058e.png)]
 https://cloud.githubusercontent.com/assets/7085477/24129460/f5fe69e2-0e36-11e7-8722-e68e1642058e.png
 
 http://www.aboutlinux.info/2007/02/links2-cross-platform-console-based-web.html
