@@ -27,4 +27,4 @@ geeqie
 
 PQIV
 
-ristretto
+ristretto 
