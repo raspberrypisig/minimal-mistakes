@@ -1,4 +1,3 @@
-;(function($){
 
   window.idx = lunr(function () {
     this.field('title');
@@ -10,5 +9,4 @@
   $(document).ready(function() {
     window.data = $.getJSON('/searchposts.json');
   });  
-    
-})(window.jQuery);
+   
