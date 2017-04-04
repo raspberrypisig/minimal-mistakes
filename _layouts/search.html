@@ -2,25 +2,24 @@
 ---
 
 <!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.3.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-  <body class="search-body">
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+
+    {% include browser-upgrade.html %}
     {% include masthead.html %}
-<script>
-  (function() {
-    var cx = '006619457154115407490:gqg-s1rv84s';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
+
+    {{ content }}
 
     <div class="page__footer">
       <footer>
@@ -28,5 +27,8 @@
         {% include footer.html %}
       </footer>
     </div>
+
+    {% include scripts.html %}
+
   </body>
 </html>
