@@ -12,7 +12,7 @@ $(document).ready(function() {
   window.data.then(function(loaded_data){
     $.each(loaded_data, function(index, value){
       window.idx.add(
-        $.extend({ "id": index }, value);
+        $.extend({ "id": index }, value)
       );
     });
   });
