@@ -8,5 +8,11 @@
   
   $(document).ready(function() {
     window.data = $.getJSON('/searchposts.json');
+    
+    window.data.then(function(loaded_data){
+      $.each(loaded_data, function(index, value){
+        window.idx.add($.extend({ "id": index }, value));
+      });
+    });  
   });  
    
