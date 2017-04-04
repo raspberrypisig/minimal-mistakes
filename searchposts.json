@@ -7,7 +7,7 @@ layout: null
      "title": "{{ post.title | xml_escape }}",
      "url": "{{ post.url | xml_escape }}",
      "excerpt": "{{ post.excerpt | xml_escape }}",
-     "content": "{{ post.content | replace: '\n', 'NEWLINE' | xml_escape }}"
+     "content": "{{ post.content | replace: '\\n', 'NEWLINE' | xml_escape }}"
     }
     {% unless forloop.last %},{% endunless %} 
   {% endfor %}
