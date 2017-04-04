@@ -13,6 +13,7 @@
       $.each(loaded_data, function(index, value){
         window.idx.add($.extend({ "id": index }, value));
       });
+      var boo = 2;
     });  
   });  
    
