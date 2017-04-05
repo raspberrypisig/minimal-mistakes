@@ -1,4 +1,6 @@
- $(document).ready(function() {
+var searchData;
+
+$(document).ready(function() {
   
   window.idx = lunr(function () {
     this.field('title');
@@ -7,6 +9,7 @@
   });
 
   window.data = $.getJSON('/searchposts.json');    
+  searchData = window.data;
   
   window.data.then(function(loaded_data){
     $.each(loaded_data, function(index, value){
