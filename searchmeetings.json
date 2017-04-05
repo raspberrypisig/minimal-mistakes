@@ -1,0 +1,16 @@
+---
+layout: null
+---
+{
+  {%  for meeting in site.meetings %}
+    "{{ meeting.url | slugify }}": {
+     "title": "{{ meeting.title | xml_escape }}",
+     "url": "{{ meeting.url | xml_escape }}",
+     "dotpoint1": "{{ meeting.dotpoint1 | xml_escape }}",
+     "dotpoint2": "{{ meeting.dotpoint2 | xml_escape }}",
+     "dotpoint3": "{{ meeting.dotpoint3 | xml_escape }}",
+     "content": "{{ post.content | strip_newlines | strip_html | xml_escape | replace: '\', ' ' }}"
+    }
+    {% unless forloop.last %},{% endunless %} 
+  {% endfor %}
+}
