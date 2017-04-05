@@ -24,8 +24,8 @@
     var fragment;
     var data;
     
-    foreach (item in results) {
-      id = item.ref;
+    results.forEach(function(element) {
+      id = element.ref;
       data = window.data[id];
       
       fragment = '<div class="result-item">' +
@@ -33,7 +33,7 @@
                   '<div class="search-result-item-excerpt">' + data.excerpt + '</div>' +
                   '</div>';  
       resultsdiv.append(fragment);
-    }
+    });
     
   });
     
