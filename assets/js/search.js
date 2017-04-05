@@ -24,7 +24,7 @@
     var fragment;
     var data;
     
-    for (item in results) {
+    foreach (item in results) {
       id = item.ref;
       data = window.data[id];
       
