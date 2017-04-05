@@ -19,23 +19,23 @@ $(document).ready(function() {
     this.field('content');
   });
 
-  window.data = $.getJSON('/searchposts.json');    
+  var data = $.getJSON('/searchposts.json');    
   $.getJSON('/searchposts.json', function(json) {
     searchDataPosts = json;
   });
   
-  window.data.then(function(loaded_data){
+  data.then(function(loaded_data){
     $.each(loaded_data, function(index, value){
       window.idx_posts.add($.extend({ "id": index }, value));
     });
   });      
   
-   window.data = $.getJSON('/searchmeetings.json');    
+  var data2 = $.getJSON('/searchmeetings.json');    
   $.getJSON('/searchmeetings.json', function(json) {
     searchDataMeetings = json;
   });
   
-  window.data.then(function(loaded_data){
+  data2.then(function(loaded_data){
     $.each(loaded_data, function(index, value){
       window.idx_meetings.add($.extend({ "id": index }, value));
     });
