@@ -1,6 +1,5 @@
 var searchDataPosts;
 var searchDataMeetings;
-var postsOrMeetings;
 
 $(document).ready(function() {
   
@@ -87,7 +86,14 @@ $(document).ready(function() {
   }
   
   $("#search-box").keydown(function(event) {
-    searchPosts();    
+    var content_type = $('input[name="contenttype"]:checked').val();
+    if ( content_type == "posts" ) {
+      searchPosts();
+    }
+    else {
+      searchMeetings();
+    }
+      
   });
     
 
