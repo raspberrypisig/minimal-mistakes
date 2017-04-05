@@ -15,7 +15,7 @@ $(document).ready(function() {
     this.field('dotpoint1');
     this.field('dotpoint2');
     this.field('dotpoint3');
-    this.field('content');
+    this.field('content', {boost: 10});
   });
 
   var data = $.getJSON('/searchposts.json');    
