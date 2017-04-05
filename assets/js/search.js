@@ -1,4 +1,5 @@
 var searchData;
+var postsOrMeetings;
 
 $(document).ready(function() {
   
@@ -19,9 +20,9 @@ $(document).ready(function() {
     });
   });      
   
-  $("#search-box").keydown(function(event) {
+  function searchPosts() {
     // event.preventDefault();
-    var query = $("#search-box").val();
+    var query = $("#search-box").val();    
     var results = window.idx.search(query);
     var resultsdiv = $("#search-results")
     resultsdiv.empty();
@@ -38,8 +39,11 @@ $(document).ready(function() {
                   '<div class="search-result-item-excerpt">' + data.excerpt + '</div>' +
                   '</div>';  
       resultsdiv.append(fragment);
-    });
-    
+    });  
+  }
+  
+  $("#search-box").keydown(function(event) {
+    searchPosts();    
   });
     
 
