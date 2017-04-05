@@ -9,7 +9,9 @@ $(document).ready(function() {
   });
 
   window.data = $.getJSON('/searchposts.json');    
-  searchData = window.data;
+  $.getJSON('/searchposts.json', function(json) {
+    searchData = json;
+  });
   
   window.data.then(function(loaded_data){
     $.each(loaded_data, function(index, value){
