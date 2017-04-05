@@ -31,7 +31,7 @@ $(document).ready(function() {
     
     results.forEach(function(element) {
       id = element.ref;
-      data = window.data[id];
+      data = searchData[id];
       
       fragment = '<div class="result-item">' +
                   '<div class="search-result-item-title"><a href="' + data.url + '">' + data.title + '</a></div>' +
