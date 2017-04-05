@@ -28,13 +28,10 @@
       id = item.ref;
       data = window.data[id];
       
-      fragment = '<div class="result-item">
-                  <div class="search-result-item-title"><a href="PLACEHOLDER1">PLACEHOLDER2</a></div>
-                  <div class="search-result-item-excerpt">PLACEHOLDER3</div>
-                  </div>';  
-      fragment = fragment.replace('PLACEHOLDER1', data.url);
-      fragment = fragment.replace('PLACEHOLDER2', data.title);
-      fragment = fragment.replace('PLACEHOLDER3', data.excerpt);
+      fragment = '<div class="result-item">' +
+                  '<div class="search-result-item-title"><a href="' + data.url + '">' + data.title + '</a></div>' +
+                  '<div class="search-result-item-excerpt">' + data.excerpt + '</div>' +
+                  '</div>';  
       resultsdiv.append(fragment);
     }
     
