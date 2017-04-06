@@ -8,6 +8,8 @@ main:
     url: https://github.com/raspberrypisig/raspberrypisig.github.io/wiki # - title: "Sample Posts"
   - title: "Github"
     url: https://github.com/raspberrypisig/raspberrypisig.github.io
+  - title: "Search"
+    url: /search/
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
