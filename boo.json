@@ -1,0 +1,7 @@
+---
+layout: null
+---
+{
+<% assign boo = site.posts[0] %>
+"content": {{ boo }}
+}
