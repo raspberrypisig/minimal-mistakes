@@ -3,5 +3,5 @@ layout: null
 ---
 {
   {% assign boo = site.posts[0] %}
-  "content": "{{ boo.content }}"
+  "content": "{{ boo.content  | newline_to_br }}"
 }
