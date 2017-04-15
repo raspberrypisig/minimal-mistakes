@@ -3,7 +3,7 @@ title: Remote access using VNC Viewer
 image: https://www.realvnc.com/docs/_images/raspberry-pi-cloud-connect.png
 excerpt: VNC over the Internet
 description: VNC Cloud using RealVNC
-categories:
+categories: remoteaccess
 ---
 ![VNC Over the Internet](https://da7ouc4w1kep6.cloudfront.net/media/svg/Over-the-internet.svg)
 
