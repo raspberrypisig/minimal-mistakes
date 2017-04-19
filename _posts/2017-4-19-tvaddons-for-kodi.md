@@ -10,6 +10,7 @@ categories: kodi
 Want to enter the dark side with Kodi? 
 
 On a Raspberry Pi, start with libreelec distro which contains the latest Kodi. 
+
 Then follow the setup guide from the folks at TVAddons.
 
 ## Links
