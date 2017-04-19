@@ -1,6 +1,6 @@
 ---
 title: Cloud Services for Raspberry Pi
-image:
+image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/cloudpi.jpg
 excerpt: Cloud Services for Raspberry Pi
 description: Cloud Services for Raspberry Pi
 categories: iot
@@ -13,10 +13,12 @@ I'll be updating this post regularly whenver I find a cloud service that has add
 ## Links
 [Resin.io](https://resin.io/)
 
-[]() 
+[Initial State](https://www.initialstate.com/) 
 
-[]()
+[Particle Cloud](https://www.particle.io/products/development-tools/raspberry-pi-on-particle)
 
-[]()
+[Cayenne](https://mydevices.com/)
 
-[]()
+[IFTTT](https://ifttt.com/)
+
+[Thingspeak](https://thingspeak.com/)
