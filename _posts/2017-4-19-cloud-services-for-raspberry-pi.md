@@ -5,7 +5,7 @@ excerpt: Cloud Services for Raspberry Pi
 description: Cloud Services for Raspberry Pi
 categories: iot
 ---
-![Cloud Services for Raspberry Pi](https://www.raspberrypi.org/app/uploads/2015/06/beerfridge-1024x1024-500x500.jpg)
+![Cloud Services for Raspberry Pi](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/cloud-dashboard.png)
 
 I'll be updating this post regularly whenever I find a cloud service that has add useful features that can be useful for Raspberry Pi.
 
