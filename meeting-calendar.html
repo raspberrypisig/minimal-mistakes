@@ -25,7 +25,7 @@
   var next_month_meeting_date;
   var previous_month_meeting_date;    
     
-  function calculateNextMeetingDate() {
+  (function calculateNextMeetingDate() {
     var candidate_date = Date.today().second().saturday();
     var today_date = Date.today();
     //var meeting_remains_this_month = candidate_date.compareTo(today_date);
@@ -33,15 +33,15 @@
     this_month_meeting_date = Date.today().second().saturday().toString("yyyy-MM-d");
     next_month_meeting_date = Date.today().next().month().second().saturday().toString("yyyy-MM-d");
     previous_month_meeting_date = Date.today().previous().month().second().saturday().toString("yyyy-MM-d");
-  }
+  })();
    
-  function meetingCalendarWidget(nextMeetingDate) {
+  (function meetingCalendarWidget()) {
       var data = [ {"date": previous_month_meeting_date, "badge":true, "title":"Monthly Meeting" }, {"date":  this_month_meeting_date, "badge":true, "title":"Monthly Meeting" }, {"date":  next_month_meeting_date, "badge":true, "title":"Monthly Meeting" } ]; 
       $("#meeting-calendar").zabuto_calendar({
 			today:true,
 			data: data 
 			});   
-  }
+  })();
     
   });
   
