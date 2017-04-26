@@ -38,7 +38,7 @@
   (function meetingCalendarWidget() {
       var data = [ {"date": previous_month_meeting_date, "badge": true, "title":"Monthly Meeting" }, {"date":  next_month_meeting_date, "badge":true, "title":"Monthly Meeting" }, {"date": this_month_meeting_date , "badge": true, "title":"Monthly Meeting" }, ]; 
       $("#meeting-calendar").zabuto_calendar({
-			today: false,
+			today: true,
 			data: data 
 			});   
   })();
