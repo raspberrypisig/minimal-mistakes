@@ -6,7 +6,7 @@ description: raspberry pi tor gateway
 categories: networking
 ---
 
-SPOILER ALERT: This blog has useful bits, and plenty of ranting and raving.
+SPOILER ALERT: This blog post has useful bits, and plenty of ranting and raving.
 
 I've been frustrated at the club the last couple of weeks with certain websites not working, such as RealVNC and NodeJS deb repositories
 for Raspberry Pi. Normally, in these circumstances, I normally use the Tor Browser to get around these issues.
@@ -23,6 +23,8 @@ So in my rage, I decided to attempt to turn the Raspberry Pi into a WIFI access 
 access point, all traffic incoming and outgoing will be funnelled through the TOR network.
 
 I'm still working on it, details will made available on completion.
+
+To check if you are using the Tor gateway, go to https://check.torproject.org
 
 
 ## Links
