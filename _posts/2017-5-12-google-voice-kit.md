@@ -1,6 +1,6 @@
 ---
 title: AIY Projects
-image: https://www.raspberrypi.org/magpi/google-aiy-voice-magpi-57/
+image: https://www.raspberrypi.org/magpi/wp-content/uploads/2017/05/Issue57-Mock-002-with-BOX_web.jpg
 excerpt: google voice recognition meets raspberry pi
 description:  google voice recognition meets raspberry pi
 categories: iot
