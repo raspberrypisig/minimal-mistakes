@@ -5,7 +5,7 @@ excerpt: Use EasyGUI to create simple user interface with python
 description: easygui python rpi
 categories: python
 ---
-Found a nice way to ease in GUI programming - with a library called EasyGUI. Simple, somewhat limited, but easy to use.
+Found a nice way to ease into GUI programming - with a library called EasyGUI. Simple, somewhat limited, but easy to get up and running.
 ```sh
 sudo pip install easygui 
 ```
