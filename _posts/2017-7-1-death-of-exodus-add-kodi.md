@@ -7,4 +7,4 @@ categories: kodi
 ---
 
 ## Links
-- http://thedroidguy.com/2017/06/install-specto-kodi-alternative-exodus-watch-movies-free-android-1073637
+- [Specto Fork](http://thedroidguy.com/2017/06/install-specto-kodi-alternative-exodus-watch-movies-free-android-1073637)
