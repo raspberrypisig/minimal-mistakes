@@ -6,7 +6,7 @@ description: mydevices thingspeak IOT data
 categories: iot
 ---
 
-Great link for a bunch of 3rd party cloud services and visualization tools tailored for IOT ecoysystem
+Great link for a bunch of 3rd party cloud services and visualization tools tailored for IOT ecosystem
 
 ## Links
 - [Visualise IOT data](https://www.thethingsnetwork.org/forum/t/visualize-and-push-your-iot-data/1788)
