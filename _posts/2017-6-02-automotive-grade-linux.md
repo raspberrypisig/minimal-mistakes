@@ -9,9 +9,11 @@ categories: linux
 
 Phil L. alerted me to this.
 
-The download file is agl-demo-platform-raspberrypi3-<DATESTAMP>.rootfs.rpi-sdimg
+UPDATE: Look at Geektillithertz link
 
 ## Links
 [Automotive Grade Linux Official Website](https://www.automotivelinux.org/)
 
 [AGL Raspberry Pi 3 image](https://download.automotivelinux.org/AGL/snapshots/master/latest/raspberrypi3/deploy/images/raspberrypi3/)
+
+[Geek Till It Hertz Link](http://geektillithertz.com/wordpress/index.php/2017/06/09/agl-on-the-raspberry-pi-23/)
