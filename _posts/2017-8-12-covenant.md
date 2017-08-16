@@ -11,4 +11,4 @@ Here is the instruction for setting up Convenant (Exodus replacement) on Kodi
 
 
 ## Links
-https://addonhq.com/covenant-kodi-addon/
+[Instructions for Installing Convenant in Kodi](https://addonhq.com/covenant-kodi-addon/)
