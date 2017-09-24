@@ -1,6 +1,6 @@
 ---
 title: Covenant for Kodi
-image: http://koditips.com/wp-content/uploads/covenant-kodi.png
+image: https://i0.wp.com/flixed.io/wp-content/uploads/2017/07/2017-07-14-11_37_41-Greenshot-e1500046690661.png?resize=949%2C534&ssl=1
 excerpt: Replacement for Exodus
 description: Covenant
 categories: kodi
