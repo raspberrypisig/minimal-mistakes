@@ -112,8 +112,7 @@ And this is the result after restarting Home Assistant
 Where did those entities come from?
 
 # State
-
-If you go to http://localhost:8123/dev-state
+Under Developer tools click State (<> icon)
 
 ![Home Assistant Dev State](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/homeassistant-devstate.jpg)
 
