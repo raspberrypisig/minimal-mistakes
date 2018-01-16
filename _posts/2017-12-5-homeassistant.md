@@ -23,7 +23,7 @@ If you get it working, Home Assistant runs on port 8123.
 # Components
 In any home automation solution, you want to interface devices and internet services. This is done with [components](https://home-assistant.io/components/#all). The components listed here are maintained officially by the creators of Home Assistant.
 
-
+![Home Assistant Componenets](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/homeassistant-components.jpg)
 
 Let's look at an example. 
 
