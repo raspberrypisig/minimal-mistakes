@@ -117,8 +117,7 @@ Under Developer tools click State (<> icon)
 ![Home Assistant Dev State](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/homeassistant-devstate.jpg)
 
 # Wrap Up
-We have only touch the surface here. As you can see, there are a number of complex parts that make up Home Assistant. In subsequent
-articles, we explore building up a useable UI and interface internet services such as MQTT and IFTTT etc.
+In subsequent articles, we look at interfacing real-world devices, internet services and writing automation scripts.
 
 
 
