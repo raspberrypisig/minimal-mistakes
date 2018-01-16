@@ -37,13 +37,47 @@ Let's look at an example. Say we are interested in displaying BOM weather data. 
 
 ![BOM Weather Data Home Assistant](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/homeassistant-bom.jpg)
 
-Let's look at the steps required to add either component to Home Assistant.
-
-
-
-
-
+Let's look at the steps required to add the component called **BOM Australia Sensor**([link here](https://home-assistant.io/components/sensor.bom/)).
 
 # Configuration
 All configuration is done with YAML files. The main configuration file is called configuration.yml
+Remove the following from the file:
+
+```yaml
+# Weather prediction
+sensor:
+  - platform: yr
+```
+
+And replace it with:
+
+```yaml
+sensor:
+  - platform: bom
+    station: IDV60901.94870
+    name: Moorabbin Airport
+    monitored_conditions:
+      - air_temp
+      - rain_trace
+      - wind_spd_kmh
+      - rel_hum
+    
+```
+I also commment out the introduction component
+```yaml
+# Show links to resources in log and frontend
+#introduction:
+```
+
+And the sun component:
+```yaml
+# Track the sun
+#sun:
+```
+
+What I end up with is the following:
+
+
+
+
 
