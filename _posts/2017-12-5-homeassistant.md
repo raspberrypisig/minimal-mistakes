@@ -20,6 +20,19 @@ If you get it working, Home Assistant runs on port 8123.
 
 ![Home Assistant Post Install](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/homeassistant-postinstall.jpg)
 
+# Components
+In any home automation solution, you want to interface devices and internet services. This is done with [components](https://home-assistant.io/components/#all). The components listed here are maintained officially by the creators of Home Assistant.
+
+
+
+Let's look at an example. 
+
+There is a [BOM Weather component](https://home-assistant.io/components/sensor.bom/) to get weather data.
+
+
+
+
+
 # Configuration
 All configuration is done with YAML files. The main configuration file is called configuration.yml
 
