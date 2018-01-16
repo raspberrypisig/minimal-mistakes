@@ -14,8 +14,7 @@ Python 3.
 Raspberry Pi 3 is a key target for Home Assistant. Installation is complicated. You have two paths to choose from:
 
 - a preinstalled locked down Raspbian image called hass.io (meant to be a turn-key, easily updateable version)
-- Install in a Python 3 virtualenv environment (My preferred method, instructions [here](https://home- 
-  assistant.io/docs/installation/raspberry-pi/) )
+- Install in a Python 3 virtualenv environment (My preferred method, instructions [here](https://homeassistant.io/docs/installation/raspberry-pi/) )
 
 If you get it working, Home Assistant runs on port 8123.
 
