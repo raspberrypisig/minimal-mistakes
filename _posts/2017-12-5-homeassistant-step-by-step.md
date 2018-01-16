@@ -40,7 +40,7 @@ Let's look at an example. Say we are interested in displaying BOM weather data. 
 Let's look at the steps required to add the component called **BOM Australia Sensor**([link here](https://home-assistant.io/components/sensor.bom/)).
 
 # Configuration
-All configuration is done with YAML files. The main configuration file is called configuration.yml
+All configuration is done with YAML files. The main configuration file is called configuration.yaml
 Remove the following from the file:
 
 ```yaml
@@ -79,7 +79,38 @@ What I end up with is the following:
 
 ![Home Assistant Badges](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/homeassistant-weather.jpg)
 
-What the? The components appear as badges by default - not the desired effect but useful since it is pulling in the right data from BOM.
+What the? The **entities** appear as badges by default - not the desired effect but useful since it is pulling in the right data from BOM.
+
+To fix this, we use something called groups.
+
+# Groups
+Group is a built-in component [link here](https://home-assistant.io/components/group/)
+
+To use it, edit the configuration file called groups.yaml, then add the following
+
+```yaml
+
+  default_view:
+    view: yes
+    icon: mdi:home
+    entities:
+      - group.bom
+
+  bom:
+    name: Moorabbin Airport Weather
+    entities:
+      - sensor.bom_moorabbin_airport_air_temp_c
+      - sensor.bom_moorabbin_airport_rain_today
+      - sensor.bom_moorabbin_airport_relative_humidity
+      - sensor.bom_moorabbin_airport_wind_speed_kmh
+```
+
+And this is the result after restarting Home Assistant
+
+
+
+
+
 
 
 
