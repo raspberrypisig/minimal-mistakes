@@ -23,9 +23,19 @@ If you get it working, Home Assistant runs on port 8123.
 # Components
 In any home automation solution, you want to interface devices and internet services. This is done with [components](https://home-assistant.io/components/#all). The components listed here are maintained officially by the creators of Home Assistant.
 
-![Home Assistant Componenets](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/homeassistant-components.jpg)
+![Home Assistant Components](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/homeassistant-components.jpg)
 
-Let's look at an example. 
+Thing to note about the picture above:
+- Components have "categories" such as (Home Assistant considers them higher-level components):
+  * alarms
+  * sensors
+  * switches
+  * weather
+- a particular component belonging to the category is said to be an available "platform" of the category.
+
+Let's look at an example. Say we are interested in displaying BOM weather data. There are 2 components available.
+
+
 
 There is a [BOM Weather component](https://home-assistant.io/components/sensor.bom/) to get weather data.
 
