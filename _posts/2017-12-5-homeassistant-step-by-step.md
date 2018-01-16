@@ -107,8 +107,19 @@ To use it, edit the configuration file called groups.yaml, then add the followin
 
 And this is the result after restarting Home Assistant
 
+![Home Assistant Groups](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/homeassistant-bom-groups.jpg)
 
+Where did those entities come from?
 
+# State
+
+If you go to http://localhost:8123/dev-state
+
+![Home Assistant Dev State](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/homeassistant-devstate.jpg)
+
+# Wrap Up
+We have only touch the surface here. As you can see, there are a number of complex parts that make up Home Assistant. In subsequent
+articles, we explore building up a useable UI and interface internet services such as MQTT and IFTTT etc.
 
 
 
