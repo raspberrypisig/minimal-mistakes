@@ -58,9 +58,9 @@ sensor:
     name: Moorabbin Airport
     monitored_conditions:
       - air_temp
-      - rain_trace
       - wind_spd_kmh
       - rel_hum
+      - rain_trace
     
 ```
 I also commment out the introduction component
@@ -77,6 +77,9 @@ And the sun component:
 
 What I end up with is the following:
 
+![Home Assistant Badges](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/homeassistant-weather.jpg)
+
+What the? The components appear as badges by default - not the desired effect but useful since it is pulling in the right data from BOM.
 
 
 
