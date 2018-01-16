@@ -1,5 +1,5 @@
 ---
-title: Home Assistant
+title: Home Assistant Step By Step
 image: https://camo.githubusercontent.com/ba21a6029ccb81d4a26b1ad9c198e61d01a07e7a/68747470733a2f2f7261772e6769746875622e636f6d2f686f6d652d617373697374616e742f686f6d652d617373697374616e742f6465762f646f63732f73637265656e73686f742d636f6d706f6e656e74732e706e67
 excerpt: Home Automation solution for Pi
 description: home automation raspberry pi
