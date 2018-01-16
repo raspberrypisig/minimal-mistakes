@@ -18,7 +18,7 @@ Raspberry Pi 3 is a key target for Home Assistant. Installation is complicated. 
 
 If you get it working, Home Assistant runs on port 8123.
 
-
+![Home Assistant Post Install](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/homeassistant-postinstall.jpg)
 
 # Configuration
 All configuration is done with YAML files. The main configuration file is called configuration.yml
