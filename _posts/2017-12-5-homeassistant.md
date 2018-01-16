@@ -35,9 +35,10 @@ Thing to note about the picture above:
 
 Let's look at an example. Say we are interested in displaying BOM weather data. There are 2 components available.
 
+![BOM Weather Data Home Assistant](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/homeassistant-bom.jpg)
 
+Let's look at the steps required to add either component to Home Assistant.
 
-There is a [BOM Weather component](https://home-assistant.io/components/sensor.bom/) to get weather data.
 
 
 
