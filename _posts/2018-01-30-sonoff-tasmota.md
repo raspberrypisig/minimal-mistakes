@@ -18,7 +18,7 @@ In this case we are using the Sonoff POW which comes with a chip HLW8… to prov
 
 [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
-[Sonoff firmware package](https://github.com/arendst/Sonoff-Tasmota)
+
 
 ##  Details 
 
@@ -35,13 +35,28 @@ First, need a *hardware* hack.
 
 ## Setup Arduino IDE. 
 
-
 Go to File → Preferences and paste this URL http://arduino.esp8266.com/stable/package_esp8266com_index.json
 into the field “Additional Boards Manger URLs”.
 
+Then goto Tools->Board:"xxxx"->Boards Manager. In the search box type *ESP8266*, click on the entry and hit *install*
 
-Made these changes.
+Make these changes.
 ![Tasmota build settings](https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/arduinoide2b.png)
+
+## Download Tasmota Firmware
+
+Download Tasmota from [here](https://github.com/arendst/Sonoff-Tasmota).
+
+Unzip it and put somewhere on your computer. For me that created a directory called Sonoff-Tasmota-development.
+
+In the Arduino IDE, open the file Sonoff-Tasmota-development/sonoff/sonoff.ino . This should open a bunch of tabs.
+
+## Copy libraries to correct folder
+
+The directory Sonoff-Tasmota-development/lib contains libraries that needed by be copied to the default location for Arduino libraries. In the case of my Windows 10 machine, it is C:\Users\<username>\Documents\Arduino\libraries
+
+## Override user_config_override.h
+
 
 
 Now we are ready to connect up the Sonoff to your PC/Laptop but there is a trick so stay tuned.
