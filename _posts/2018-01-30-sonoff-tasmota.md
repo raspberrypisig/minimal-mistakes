@@ -34,35 +34,15 @@ First, need a *hardware* hack.
 - Using a soldering iron solder the header into the four holes at the end of the Sonoff PCB furthest from the wire connection terminals.  - Inspect carefully to ensure there are no solder bridges and that the joint has good connection for good electrical conductivity.
 
 ## Setup Arduino IDE. 
+
+
 Go to File → Preferences and paste this URL http://arduino.esp8266.com/stable/package_esp8266com_index.json
 into the field “Additional Boards Manger URLs”.
 
-Go to Sketch → Include Library → Manage Libraries.
 
-You will need to add:
-PubSubClient
-ArduinoJson.h
-ESP8266WebServer
-LiquidCrystalI2C
+Made these changes.
+![Tasmota build settings](https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/arduinoide2b.png)
 
-Locate PubSubClient.h in your folder sketchbook/libraries/PubSubClient.
-Using a text editor change the line to read:
-#define MQTT_MAX_PACKET_SIZE 1000
-(previous was 128 or similar).
-
-Change the TIMEZONE in user_config.h to 10 for GMT +10.
-In the same file change the wifi parameters 
-#define STA_SSID1
-#define STA_PASS1
-
-to suit your wifi requirements. Also change WIFI_WPSCONFIG to WIFI_RETRY on line 60.
-
-From the IDE Tools menu check the following are selected:
-Board: “GenericESP Module”
-Flash Mode: “DOUT”
-Flash Size: “1M (No SPIFFS)”
-Flash Frequency: “40 MHz”
-CPU Frequency: “80 MHz”
 
 Now we are ready to connect up the Sonoff to your PC/Laptop but there is a trick so stay tuned.
 
