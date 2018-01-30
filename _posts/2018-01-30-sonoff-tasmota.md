@@ -3,8 +3,9 @@ title: Flash New Firmware on Sonoff Device
 categories: iot
 excerpt: Load new firmware to any Sonoff device
 description: Replacing the original with more capable firmware incl. MQTT.
-image: https://github.com/raspberrypisig/raspberrypisig.github.io/blob/master/assets/images/Selection_173.png
+image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/Selection_173.png
 ---
+
 In this case we are using the Sonoff POW which comes with a chip HLW8… to provide current and voltage measuring functionality.
 
 ## ** You will need: **
