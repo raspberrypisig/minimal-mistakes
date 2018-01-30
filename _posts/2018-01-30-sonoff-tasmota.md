@@ -45,7 +45,7 @@ Make these changes.
 
 ## Download Tasmota Firmware
 
-Download Tasmota from [here](https://github.com/arendst/Sonoff-Tasmota).
+Download Tasmota from [here](https://github.com/arendst/Sonoff-Tasmota). Install the development version.
 
 Unzip it and put somewhere on your computer. For me that created a directory called Sonoff-Tasmota-development.
 
