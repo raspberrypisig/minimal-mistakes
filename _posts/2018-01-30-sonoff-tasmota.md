@@ -1,6 +1,6 @@
 ---
 title: Flash New Firmware on Sonoff Device
-categories: ESP8266
+categories: iot
 excerpt: Load new firmware to any Sonoff device
 description: Replacing the original with more capable firmware incl. MQTT.
 image: https://github.com/raspberrypisig/raspberrypisig.github.io/blob/master/assets/images/Selection_173.png
