@@ -1,4 +1,10 @@
-
+---
+title: Flash New Firmware on Sonoff Device
+excerpt: Run a public webserver from home
+description: Replacing the original with more capable firmware incl. MQTT.
+image: https://ngrok.com/static/img/webhooks.png
+categories: ESP8266
+---
 Links
 [Link to Commands] (https://github.com/arendst/Sonoff-Tasmota/wiki/Commands)
 
