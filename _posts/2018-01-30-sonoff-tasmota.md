@@ -106,8 +106,10 @@ This list can be extended with Thingspeak, EasyIoT, Cayenne myDevices etc..
 To store the data locally on your Raspberry Pi you could choose between InFluxDB with Grafana or RrdTool for a database manager.  The latter option may require more manual setup to achieve nice graphs.
 
 Here is a python script to store the Sonoff POW “Power” data stream to rrdtool.
+[here](https://github.com/raspberrypisig/raspberrypisig.github.io/blob/master/assets/files/mqttSonoff.py)
 
 Here is another one to toggle the Sonoff the relay on and off at intervals.
+[here](https://github.com/raspberrypisig/raspberrypisig.github.io/blob/master/assets/files/mqttRelayOnOff.py)
 
 Have fun exploring!
 
