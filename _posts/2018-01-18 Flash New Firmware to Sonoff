@@ -2,21 +2,21 @@
 Links
 
 
-**Flash New Firmware on Sonoff Device**
+#**Flash New Firmware on Sonoff Device**
 
 In this case we are using the Sonoff POW which comes with a chip HLW8… to provide current and voltage measuring functionality.
 
-**You will need:**
+##**You will need:**
 a four pin header to be soldered onto the Sonoff PCB
 a FTDI-usb adapter to connect the Sonoff device to your PC/laptop.
 
-**Download:**
+##**Download:**
 
 Arduino IDE software: 
 
 Sonoff firmware package: 
 
-**Details**
+##**Details**
 
 First we will get the Sonoff ready for uploading the new firmware.
 Ensure there is no power to the device so that you remain alive throughout this project.
@@ -27,7 +27,7 @@ Using a soldering iron solder the header into the four holes at the end of the S
 Next we  will setup the software on the PC.
 Follow these instructions for  installing the IDE and note the location details for the sketchbook folder.
 
-Fire up the Arduino IDE.
+**Fire up the Arduino IDE.**
 Go to File → Preferences and paste this URL http://arduino.esp8266.com/stable/package_esp8266com_index.json
 into the field “Additional Boards Manger URLs”.
 
@@ -68,8 +68,8 @@ b) With all four wires connected between the FTDI and the Sonoff, hold down the 
 The above puts the Sonoff microprocessor into Flash mode so that it can receive the upload of the firmware file.
 
 We are ready to upload the firmware but first 
-check the Port is selected
-start the Serial Monitor – so you can see how the processor is responding.
+*check the Port is selected
+*start the Serial Monitor – so you can see how the processor is responding.
 
 Now you can click on the Upload option in the Arduno IDE .  This commences the compile step and the flashing of the file will follow. This will take a few minutes.
 
@@ -77,16 +77,16 @@ When the writing of the Flash has completed the Serial Monitor should show that 
 
 When you can see activity in the Serial Monitor go to Configration → Module and select the correct unit.  In my case it was a Sonoff POW replacing the defaulkt Sonoff Basic.  Save and return to the Main Menu.
 
-Select Configration →Other and select the MQTT Enable tick box.  Save the config change and return to the main Menu.
+*Select Configration → Other and select the MQTT Enable tick box.  Save the config change and return to the main Menu.
 
-Select Configration →MQTT.  In the Host field change the text to the IP address of your Raspberry Pi or laptop where you may want to run an MQTT broker or collect info in a database. Save the config change.
+*Select Configration → MQTT.  In the Host field change the text to the IP address of your Raspberry Pi or laptop where you may want to run an MQTT broker or collect info in a database. Save the config change.
 
-Select Configration →Logging and change the Telemetry Interval to something appropriate for your application.  For current and power this might be 30 seconds or even shorter.  If you are monitoring temperature then something longer such as 300 seconds may be more appropriate.  Again save the config changes.
+*Select Configration → Logging and change the Telemetry Interval to something appropriate for your application.  For current and power this might be 30 seconds or even shorter.  If you are monitoring temperature then something longer such as 300 seconds may be more appropriate.  Again save the config changes.
 
 The menu item Console allows you to see the MQTT message topic format as well as other status information.
 There are many options from here so you can explore endlessly to uncover the capabilities of this device and the new firmware.
 
-One good option for dynamic display of the variables being logged is Node-Red and its Dashboard. Mohan has provided a copy of a Flow file that could be used for this.
+One good option for dynamic display of the variables being logged is **Node-Red** and its Dashboard. Mohan has provided a copy of a Flow file that could be used for this.
 
 If you wish to send the data to charting websites you can visit a number of options here:
 http://moxd.io/2015/10/public-mqtt-brokers/
