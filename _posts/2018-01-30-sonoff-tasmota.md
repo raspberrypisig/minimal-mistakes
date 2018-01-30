@@ -58,7 +58,15 @@ The directory Sonoff-Tasmota-development/lib contains libraries that needed by b
 ## Override user_config_override.h
 Override this file with the one [here](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/files/user_config_override.h)
 
+In this file, change wifi details and CFG_HOLDER value.
+
 If you have followed the steps correctly, you should hit verify and it should compile without error.
+
+The IP address of sonoff will be in Serial monitor once uploaded.
+
+You need to go to web interface and choose Configuration->Change Module->Sonoff POW, then power off and the power on .
+Go back to web interface to confirm it went OK.
+
 
 Now we are ready to connect up the Sonoff to your PC/Laptop but there is a trick so stay tuned.
 
