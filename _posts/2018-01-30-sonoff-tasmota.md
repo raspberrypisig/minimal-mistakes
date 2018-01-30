@@ -114,8 +114,13 @@ Here is another one to toggle the Sonoff the relay on and off at intervals.
 Have fun exploring!
 
 p.s. 
+
 For mqtt in python you will need to :
+
 sudo apt-get install mosquitto-clients
+
 sudo apt-get install mosquitto
+
 sudo apt-get install libmosquitto-dev
+
 sudo pip install paho-mqtt
