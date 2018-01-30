@@ -22,7 +22,7 @@ In this case we are using the Sonoff POW which comes with a chip HLW8… to prov
 
 ##  Details 
 
-** WE ARE DEALING WITH 240 VOLTS. SAFETY PRECAUTIONS WITH LIVE ELECTRICITY SHOULD BE OBSERVED **
+* WE ARE DEALING WITH 240 VOLTS. SAFETY PRECAUTIONS WITH LIVE ELECTRICITY SHOULD BE OBSERVED *
 
 ![Sonoff POW Tasmota](https://www.cnx-software.com/wp-content/uploads/2016/12/Sonoff-POW-Serial-Header-Large.jpg)
 
