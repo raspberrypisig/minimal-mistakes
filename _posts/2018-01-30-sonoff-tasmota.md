@@ -6,32 +6,34 @@ description: Replacing the original with more capable firmware incl. MQTT.
 image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/Selection_173.png
 ---
 
-This post was written by Robert B.
+This post was written by Robert B. Edited by Mohan G.
 
 In this case we are using the Sonoff POW which comes with a chip HLW8… to provide current and voltage measuring functionality.
 
 ## You will need:
-a four pin header to be soldered onto the Sonoff PCB
-a FTDI-usb adapter to connect the Sonoff device to your PC/laptop.
+- a four pin header to be soldered onto the Sonoff PCB
+- a FTDI-usb adapter to connect the Sonoff device to your PC/laptop.
 
 ## Download: 
 
-Arduino IDE software: 
+[Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
-Sonoff firmware package: 
+[Sonoff firmware package](https://github.com/arendst/Sonoff-Tasmota)
 
 ##  Details 
 
-First we will get the Sonoff ready for uploading the new firmware.
+** WE ARE DEALING WITH 240 VOLTS. SAFETY PRECAUTIONS WITH LIVE ELECTRICITY SHOULD BE OBSERVED **
+
+![Sonoff POW Tasmota](https://www.cnx-software.com/wp-content/uploads/2016/12/Sonoff-POW-Serial-Header-Large.jpg)
+
 Ensure there is no power to the device so that you remain alive throughout this project.
 
-Prise open the case with a small screwdriver or strong fingernails.
-Using a soldering iron solder the header into the four holes at the end of the Sonoff PCB furthest from the wire connection terminals.  Inspect carefully to ensure there are no solder brodges and that the joint has good connection for good electrical conductivity.
+First, need a *hardware* hack.
 
-Next we  will setup the software on the PC.
-Follow these instructions for  installing the IDE and note the location details for the sketchbook folder.
+- Prise open the case with a small screwdriver or strong fingernails.
+- Using a soldering iron solder the header into the four holes at the end of the Sonoff PCB furthest from the wire connection terminals.  - Inspect carefully to ensure there are no solder bridges and that the joint has good connection for good electrical conductivity.
 
-** Fire up the Arduino IDE. **
+## Setup Arduino IDE. 
 Go to File → Preferences and paste this URL http://arduino.esp8266.com/stable/package_esp8266com_index.json
 into the field “Additional Boards Manger URLs”.
 
