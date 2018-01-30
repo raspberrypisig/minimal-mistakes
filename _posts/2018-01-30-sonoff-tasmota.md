@@ -8,7 +8,7 @@ image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/ass
 
 This post was written by Robert B. Edited by Mohan G.
 
-In this case we are using the Sonoff POW which comes with a chip HLW8… to provide current and voltage measuring functionality.
+In this case we are using the Sonoff POW which comes with a chip HLW8012 to provide current and voltage measuring functionality.
 
 ## You will need:
 - a four pin header to be soldered onto the Sonoff PCB
