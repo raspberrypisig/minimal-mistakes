@@ -6,19 +6,21 @@ description: Replacing the original with more capable firmware incl. MQTT.
 image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/Selection_173.png
 ---
 
+This post was written by Robert B.
+
 In this case we are using the Sonoff POW which comes with a chip HLW8… to provide current and voltage measuring functionality.
 
-## ** You will need: **
+## You will need:
 a four pin header to be soldered onto the Sonoff PCB
 a FTDI-usb adapter to connect the Sonoff device to your PC/laptop.
 
-## ** Download: **
+## Download: 
 
 Arduino IDE software: 
 
 Sonoff firmware package: 
 
-## ** Details **
+##  Details 
 
 First we will get the Sonoff ready for uploading the new firmware.
 Ensure there is no power to the device so that you remain alive throughout this project.
