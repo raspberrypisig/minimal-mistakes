@@ -71,6 +71,7 @@ Go back to web interface to confirm it went OK.
 Now we are ready to connect up the Sonoff to your PC/Laptop but there is a trick so stay tuned.
 
 There are two ways to do this.
+
 a) Connect three wires GND, TX and RX between the FTDI adapter and the Sonoff PCB header. Press and keep holding down the button on the Sonoff device. Then connect the VCC wire to put power onto the Sonoff.  Hold the button for a further 2 seconds abd release.
 
 b) With all four wires connected between the FTDI and the Sonoff, hold down the button on the Sonoff and then push the FTDI into the ueb port of the PC/Laptop.
