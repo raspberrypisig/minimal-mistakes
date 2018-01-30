@@ -38,7 +38,7 @@ First, need a *hardware* hack.
 Go to File → Preferences and paste this URL http://arduino.esp8266.com/stable/package_esp8266com_index.json
 into the field “Additional Boards Manger URLs”.
 
-Then goto Tools->Board:"xxxx"->Boards Manager. In the search box type *ESP8266*, click on the entry and hit *install*
+Then goto Tools-> Board:"xxxx"-> Boards Manager. In the search box type *ESP8266*, click on the entry and hit *install*
 
 Make these changes.
 ![Tasmota build settings](https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/arduinoide2b.png)
@@ -85,7 +85,7 @@ Now you can click on the Upload option in the Arduno IDE .  This commences the c
 
 When the writing of the Flash has completed the Serial Monitor should show that a connection has been established to your wifi router. If it doesn’t do this after several seconds disconnect the FTDI from the PC, re-connect and re-open the Serial Monitor. 
 
-When you can see activity in the Serial Monitor go to Configration → Module and select the correct unit.  In my case it was a Sonoff POW replacing the defaulkt Sonoff Basic.  Save and return to the Main Menu.
+When you can see activity in the Serial Monitor go to Configration → Module and select the correct unit.  In my case it was a Sonoff POW replacing the default Sonoff Basic.  Save and return to the Main Menu.
 
 * Select Configration → Other and select the MQTT Enable tick box.  Save the config change and return to the main Menu.
 
