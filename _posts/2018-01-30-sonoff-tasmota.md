@@ -67,11 +67,10 @@ The IP address of sonoff will be in Serial monitor once uploaded.
 You need to go to web interface and choose Configuration->Change Module->Sonoff POW, then power off and the power on .
 Go back to web interface to confirm it went OK.
 
-## Buttons
-[here](https://github.com/arendst/Sonoff-Tasmota/wiki/Button-usage)
-
 ## Backup Original Firmware
 [here](https://github.com/arendst/Sonoff-Tasmota/wiki/Esptool)
+
+## Upload Instructions 
 
 Now we are ready to connect up the Sonoff to your PC/Laptop but there is a trick so stay tuned.
 
@@ -90,6 +89,19 @@ We are ready to upload the firmware but first
 Now you can click on the Upload option in the Arduno IDE .  This commences the compile step and the flashing of the file will follow. This will take a few minutes.
 
 When the writing of the Flash has completed the Serial Monitor should show that a connection has been established to your wifi router. If it doesn’t do this after several seconds disconnect the FTDI from the PC, re-connect and re-open the Serial Monitor. 
+
+## Buttons
+[here](https://github.com/arendst/Sonoff-Tasmota/wiki/Button-usage)
+
+
+## Set SONOFF MODULE after upload
+
+Go the IP address of sonoff (use Advanced IP Scanner).
+
+![Tasmota Home Page](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/configure-sonoff-pow-module.JPG)
+
+![Tasmota SONOFF Module Selection](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/configure-sonoff-pow-module-2.JPG)
+
 
 When you can see activity in the Serial Monitor go to Configration → Module and select the correct unit.  In my case it was a Sonoff POW replacing the default Sonoff Basic.  Save and return to the Main Menu.
 
