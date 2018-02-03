@@ -67,6 +67,11 @@ The IP address of sonoff will be in Serial monitor once uploaded.
 You need to go to web interface and choose Configuration->Change Module->Sonoff POW, then power off and the power on .
 Go back to web interface to confirm it went OK.
 
+## Buttons
+[here](https://github.com/arendst/Sonoff-Tasmota/wiki/Button-usage)
+
+## Backup Original Firmware
+[here](https://github.com/arendst/Sonoff-Tasmota/wiki/Esptool)
 
 Now we are ready to connect up the Sonoff to your PC/Laptop but there is a trick so stay tuned.
 
