@@ -91,13 +91,6 @@ Now you can click on the Upload option in the Arduno IDE .  This commences the c
 
 When the writing of the Flash has completed the Serial Monitor should show that a connection has been established to your wifi router. If it doesn’t do this after several seconds disconnect the FTDI from the PC, re-connect and re-open the Serial Monitor. 
 
-## Configure SONOFF module
-
-
-
-
-
-
 ## Set SONOFF MODULE after upload
 If all goes well, the Serial monitor should reveal IP address of Sonoff - if you miss it, use Advanced IP Scanner. 
 Then type IP address into browser. You should see this screen.
@@ -113,8 +106,13 @@ Press **configuration**.
 Press **Configure Module**. Then  select SONOFF POW, click Save. Then disconnect USB-serial adapter, reconnect and go to the browser
 and type the IP address of the SONOFF. The SONOFF POW module should now be showing.
 
+It is at this step that we can disconnect USB-serial adapter and plug 240V in.
+
 ## Buttons
 [here](https://github.com/arendst/Sonoff-Tasmota/wiki/Button-usage)
+
+## Commands
+[here](https://github.com/arendst/Sonoff-Tasmota/wiki/Commands)
 
 When you can see activity in the Serial Monitor go to Configration → Module and select the correct unit.  In my case it was a Sonoff POW replacing the default Sonoff Basic.  Save and return to the Main Menu.
 
