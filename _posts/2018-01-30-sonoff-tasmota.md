@@ -4,6 +4,7 @@ categories: iot
 excerpt: Load new firmware to any Sonoff device
 description: Replacing the original with more capable firmware incl. MQTT.
 image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/Selection_173.png
+modified: 2018-2-4
 ---
 
 This post was written by Robert B. Edited by Mohan G.
