@@ -116,8 +116,9 @@ It is at this step that we can disconnect USB-serial adapter and plug 240V in.
 
 When you can see activity in the Serial Monitor go to Configration → Module and select the correct unit.  In my case it was a Sonoff POW replacing the default Sonoff Basic.  Save and return to the Main Menu.
 
-
-
+## NodeRED
+[Tasmota](https://github.com/microcontrollersig/workshop/blob/master/mohan/tasmota-thingspeak.flow)
+[Tasmota-Thingspeak](https://github.com/microcontrollersig/workshop/blob/master/mohan/tasmota-thingspeak.flow)
 
 * Select Configration → Other and select the MQTT Enable tick box.  Save the config change and return to the main Menu.
 
