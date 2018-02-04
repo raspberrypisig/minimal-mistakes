@@ -106,7 +106,11 @@ To change Sonoff Module, Press **configuration**.
 
 ![Tasmota SONOFF Module Selection](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/configure-sonoff-pow-module-2.JPG)
 
-Press **Configure Module**. Then select SONOFF POW, click Save. Then disconnect USB-serial adapter, reconnect and go to the browser
+Press **Configure Module**. 
+
+![Sonoff Basic](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/sonoffbasic.jpg)
+
+Then select SONOFF POW, click Save. Then disconnect USB-serial adapter, reconnect and go to the browser
 and type the IP address of the SONOFF. The SONOFF POW module should now be showing.
 
 It is at this step that we can disconnect USB-serial adapter and plug 240V in.
