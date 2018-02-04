@@ -57,7 +57,7 @@ In the Arduino IDE, open the file Sonoff-Tasmota-development/sonoff/sonoff.ino .
 The directory Sonoff-Tasmota-development/lib contains libraries that needed by be copied to the default location for Arduino libraries. In the case of my Windows 10 machine, it is C:\Users\*username*\Documents\Arduino\libraries
 
 ## Override user_config_override.h
-Override this file with the one [here](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/files/user_config_override.h)
+Empty the contents of the file **user_config_override.h** and replace its contents with the file [here](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/files/user_config_override.h)
 
 In this file, change wifi details and CFG_HOLDER value.
 
@@ -84,12 +84,11 @@ The sonoff has to be put into an "upload mode" before upload. Here is the proced
 ### Ready to Upload
 
 Before uploading: 
--  check the correct port is selected and double-check the board paramters in Tools menu
--  start the Serial Monitor and change baud rate to 115200
+-  Check the correct port is selected and double-check the board paramters in Tools menu
+-  Start the Serial Monitor and change baud rate to 11520
+-  Make sure that the Serial Monitor is visible and open during upload.
 
-Now you can click on the Upload option in the Arduno IDE .  This commences the compile step and the flashing of the file will follow. This will take a few minutes.
-
-When the writing of the Flash has completed the Serial Monitor should show that a connection has been established to your wifi router. If it doesn’t do this after several seconds disconnect the FTDI from the PC, re-connect and re-open the Serial Monitor. 
+Now you can click on the Upload option in the Arduno IDE .  This commences the compile step and the flashing of the file will follow. This will take a few minutes. If you get espcomm errors, try swapping RX and TX, then put into upload mode and upload.
 
 ## Set SONOFF MODULE after upload
 If all goes well, the Serial monitor should reveal IP address of Sonoff - if you miss it, use Advanced IP Scanner. 
@@ -97,13 +96,11 @@ Then type IP address into browser. You should see this screen.
 
 ![Tasmota Home Page](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/configure-sonoff-pow-module.JPG)
 
-You should notice that the default model selected is **Sonoff Basic**. We need to change this.
-
-Press **configuration**.
+To change Sonoff Module, Press **configuration**.
 
 ![Tasmota SONOFF Module Selection](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/configure-sonoff-pow-module-2.JPG)
 
-Press **Configure Module**. Then  select SONOFF POW, click Save. Then disconnect USB-serial adapter, reconnect and go to the browser
+Press **Configure Module**. Then select SONOFF POW, click Save. Then disconnect USB-serial adapter, reconnect and go to the browser
 and type the IP address of the SONOFF. The SONOFF POW module should now be showing.
 
 It is at this step that we can disconnect USB-serial adapter and plug 240V in.
