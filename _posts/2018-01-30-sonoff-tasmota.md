@@ -94,6 +94,9 @@ Now you can click on the Upload option in the Arduno IDE .  This commences the c
 
 ## Set SONOFF MODULE after upload
 If all goes well, the Serial monitor should reveal IP address of Sonoff - if you miss it, use Advanced IP Scanner. 
+
+![Serial Monitor Tasmota](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/serialmonitor-tasmota.jpg)
+
 Then type IP address into browser. You should see this screen.
 
 ![Tasmota Home Page](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/configure-sonoff-pow-module.JPG)
