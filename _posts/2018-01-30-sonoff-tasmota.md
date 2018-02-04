@@ -42,6 +42,7 @@ Then goto Tools-> Board:"xxxx"-> Boards Manager. In the search box type *ESP8266
 ![ESP8266 Board Manager](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/boardmanager-tasmota.jpg)
 
 Make these changes.
+
 ![Tasmota build settings](https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/arduinoide2b.png)
 
 **Double-check that the setting Flash Mode is set to DOUT. Failure to do so may brick your Sonoff.** 
