@@ -39,6 +39,8 @@ into the field “Additional Boards Manger URLs”.
 
 Then goto Tools-> Board:"xxxx"-> Boards Manager. In the search box type *ESP8266*, click on the entry and hit *install*
 
+![ESP8266 Board Manager](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/boardmanager-tasmota.jpg)
+
 Make these changes.
 ![Tasmota build settings](https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/arduinoide2b.png)
 
