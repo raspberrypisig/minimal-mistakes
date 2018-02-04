@@ -13,7 +13,7 @@ In this case we are using the Sonoff POW which comes with a chip HLW8012 to prov
 
 ## You will need:
 - a four pin header to be soldered onto the Sonoff PCB
-- a FTDI-usb adapter to connect the Sonoff device to your PC/laptop - buy one like [this](https://images-na.ssl-images-amazon.com/images/I/61FzcNp6CyL._SY355_.jpg) that has a jumper to allow you to switch between 5V and 3.3V
+- a FTDI-usb adapter to connect the Sonoff device to your PC/laptop - buy one like [this](https://images-na.ssl-images-amazon.com/images/I/61FzcNp6CyL._SY355_.jpg) that has a jumper to allow you to switch from 5V and 3.3V
 
 ## Download: 
 
@@ -42,7 +42,7 @@ Then goto Tools-> Board:"xxxx"-> Boards Manager. In the search box type *ESP8266
 Make these changes.
 ![Tasmota build settings](https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/arduinoide2b.png)
 
-** Double-check the setting Flash Mode is set to DOUT. Failure to do so may brick your Sonoff. ** 
+**Double-check the setting Flash Mode is set to DOUT. Failure to do so may brick your Sonoff.** 
 
 ## Download Tasmota Firmware
 
