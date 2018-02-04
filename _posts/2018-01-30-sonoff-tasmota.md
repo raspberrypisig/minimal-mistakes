@@ -54,7 +54,7 @@ In the Arduino IDE, open the file Sonoff-Tasmota-development/sonoff/sonoff.ino .
 
 ## Copy libraries to correct folder
 
-The directory Sonoff-Tasmota-development/lib contains libraries that needed by be copied to the default location for Arduino libraries. In the case of my Windows 10 machine, it is C:\Users\<username>\Documents\Arduino\libraries
+The directory Sonoff-Tasmota-development/lib contains libraries that needed by be copied to the default location for Arduino libraries. In the case of my Windows 10 machine, it is C:\Users\*username*\Documents\Arduino\libraries
 
 ## Override user_config_override.h
 Override this file with the one [here](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/files/user_config_override.h)
