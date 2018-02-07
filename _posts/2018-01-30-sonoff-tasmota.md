@@ -13,7 +13,7 @@ In this case we are using the Sonoff POW which comes with a chip HLW8012 to prov
 
 ## You will need:
 - a four pin header to be soldered onto the Sonoff PCB
-- a FTDI-usb adapter to connect the Sonoff device to your PC/laptop - buy one like [this](https://images-na.ssl-images-amazon.com/images/I/61FzcNp6CyL._SY355_.jpg) that has a jumper to allow you to switch from 5V and 3.3V
+- a FTDI-usb adapter to connect the Sonoff device to your PC/laptop - buy one like [this](https://images-na.ssl-images-amazon.com/images/I/61FzcNp6CyL._SY355_.jpg) that has a jumper to allow you to switch from 5V to 3.3V
 
 ## Download: 
 
@@ -22,6 +22,8 @@ In this case we are using the Sonoff POW which comes with a chip HLW8012 to prov
 ##  Details 
 
 **WE ARE DEALING WITH 240 VOLTS. SAFETY PRECAUTIONS WITH LIVE ELECTRICITY SHOULD BE OBSERVED**
+
+**ALSO, THE 4 PINS ARE 3.3V TOLERANT, NOT 5V TOLERANT**
 
 ![Sonoff POW Tasmota](https://www.cnx-software.com/wp-content/uploads/2016/12/Sonoff-POW-Serial-Header-Large.jpg)
 
@@ -88,7 +90,7 @@ The sonoff has to be put into an "upload mode" before upload. Here is the proced
 
 Before uploading: 
 -  Check the correct port is selected and double-check the board paramters in Tools menu
--  Start the Serial Monitor and change baud rate to 11520
+-  Start the Serial Monitor and change baud rate to 115200
 -  Make sure that the Serial Monitor is visible and open during upload.
 
 Now you can click on the Upload option in the Arduno IDE .  This commences the compile step and the flashing of the file will follow. This will take a few minutes. If you get espcomm errors, try swapping RX and TX, then put into upload mode and upload.
