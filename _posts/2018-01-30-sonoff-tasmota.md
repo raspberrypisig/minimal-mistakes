@@ -31,7 +31,7 @@ Ensure there is no power to the device so that you remain alive throughout this 
 
 First, need a *hardware* hack.
 
-```markup
+```
 - Prise open the case with a small screwdriver 
 
   or strong fingernails.
