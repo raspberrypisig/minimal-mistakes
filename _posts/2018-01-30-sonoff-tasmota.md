@@ -34,9 +34,11 @@ First, need a *hardware* hack.
 ```markup
 - Prise open the case with a small screwdriver or strong fingernails.
 
-- Using a soldering iron solder the header into the four holes at the end of the Sonoff PCB furthest from the wire connection terminals.
+- Using a soldering iron solder the header into the four holes at the end
+  of the Sonoff PCB furthest from the wire connection terminals.
 
-- Inspect carefully to ensure there are no solder bridges and that the joint has good connection for good electrical conductivity.
+- Inspect carefully to ensure there are no solder bridges and that the joint 
+  has good connection for good electrical conductivity.
 ```
 
 ## Setup Arduino IDE. 
