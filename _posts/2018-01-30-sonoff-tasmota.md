@@ -32,16 +32,12 @@ Ensure there is no power to the device so that you remain alive throughout this 
 First, need a *hardware* hack.
 
 ```
-- Prise open the case with a small screwdriver 
+- Prise open the case with a small screwdriver or strong fingernails.
 
-  or strong fingernails.
+- Using a soldering iron solder the header into the four holes 
+  at the end of the Sonoff PCB furthest from the wire connection terminals.
 
-- Using a soldering iron solder the header into 
-  the four holes at the end of the Sonoff PCB 
-  furthest from the wire connection terminals.
-
-- Inspect carefully to ensure there are no 
-  solder bridges and that the joint 
+- Inspect carefully to ensure there are no solder bridges and that the joint 
   has good connection for good electrical conductivity.
 ```
 
@@ -89,20 +85,23 @@ Before proceeding further, take a backup of the original Sonoff firmware.
 
 The sonoff has to be put into an "upload mode" before upload. Here is the procedure:
 
+```
 - Connect three wires GND, TX and RX between the FTDI adapter and the Sonoff PCB header. 
 - Press and keep holding down the button on the Sonoff device. 
 - Connect VCC wire to put power onto the Sonoff.  
 - Hold the button for a further 2 seconds and release.
 - It seems RX on USB-FTDI adapter has to be connected to RX on sonoff header. If it doesn't work, try the other way.
-
+```
 
 
 ### Ready to Upload
 
 Before uploading: 
+```
 -  Check the correct port is selected and double-check the board paramters in Tools menu
 -  Start the Serial Monitor and change baud rate to 115200
 -  Make sure that the Serial Monitor is visible and open during upload.
+```
 
 Now you can click on the Upload option in the Arduno IDE .  This commences the compile step and the flashing of the file will follow. This will take a few minutes. If you get espcomm errors, try swapping RX and TX, then put into upload mode and upload.
 
