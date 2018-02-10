@@ -11,5 +11,6 @@ out.
 
 ## Links
 [Mozilla Project Things](https://iot.mozilla.org/)
+
 [Blog post for Project Things](https://blog.mozilla.org/blog/2018/02/06/announcing-project-things-open-framework-connecting-devices-web/)
 
