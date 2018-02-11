@@ -48,7 +48,7 @@ Go to **File → Preferences** and paste this URL into the field “Additional B
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 
-Then goto Tools-> Board:"xxxx"-> Boards Manager. In the search box type *ESP8266*, click on the entry and hit *install*
+Then goto **Tools-> Board:"xxxx"-> Boards Manager**. In the search box type **esp8266**, click on the entry and hit **Install**
 
 ![ESP8266 Board Manager](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/boardmanager-tasmota.jpg)
 
