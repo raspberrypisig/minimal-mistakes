@@ -43,8 +43,10 @@ First, need a *hardware* hack.
 
 ## Setup Arduino IDE. 
 
-Go to File → Preferences and paste this URL http://arduino.esp8266.com/stable/package_esp8266com_index.json
-into the field “Additional Boards Manger URLs”.
+Go to **File → Preferences** and paste this URL into the field “Additional Boards Manger URLs”.
+
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 
 Then goto Tools-> Board:"xxxx"-> Boards Manager. In the search box type *ESP8266*, click on the entry and hit *install*
 
