@@ -5,6 +5,7 @@ excerpt: Retro case for Raspberry Pis
 description: nintendo case raspberry pi
 categories: iot
 ---
+![Inside retro case](https://core-electronics.com.au/media/catalog/product/cache/1/image/650x650/fe1bcd18654db18f328c2faaaf3c690a/r/a/ra295-3_1.jpg)
 
 Bill S. showed this at the Feb meeting. Perfect case for retro gaming.
 
