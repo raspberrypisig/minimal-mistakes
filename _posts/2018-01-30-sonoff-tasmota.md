@@ -73,9 +73,11 @@ The directory Sonoff-Tasmota-development/lib contains libraries that needed by b
 ## Override user_config_override.h
 Empty the contents of the file **user_config_override.h** and replace its contents with the file [here](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/files/user_config_override.h)
 
-In this file, change wifi details and CFG_HOLDER value.
+In this file, change wifi details.
 
 If you have followed the steps correctly, you should hit verify and it should compile without error.
+
+After the first time you upload, any changes to this file will require a change to the value CFG_HOLDER, otherwise the change will not be reflected on the device.
 
 ## Backup Original Firmware
 Before proceeding further, take a backup of the original Sonoff firmware.
