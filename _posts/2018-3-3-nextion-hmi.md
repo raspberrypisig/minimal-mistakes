@@ -22,6 +22,7 @@ I presume what that means is that is the following:
 
 # Links
 [Nextion](https://www.itead.cc/wiki/Nextion_HMI_Solution)
+
 [Nextion editor](https://nextion.itead.cc/resources/download/nextion-editor/)
 
 
