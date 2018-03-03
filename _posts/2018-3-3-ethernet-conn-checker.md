@@ -14,7 +14,7 @@ The script checks if eth0 is up and if so logs "Ethernet OK" to a log file in yo
 
 The webpage below shows now to set the permissions and to add it to your crontab for a regular check at you chosen interval.
 
-Coinnection failures can occur because of the ethernet port sharing the USB bus so e.g. a high data rate could cause it.
+Connection failures can occur because of the ethernet port sharing the USB bus so e.g. a high data rate could cause it.
 
 # Links
 
