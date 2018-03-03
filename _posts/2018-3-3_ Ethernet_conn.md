@@ -11,6 +11,6 @@ The credit goes to : https://samhobbs.co.uk/2013/11/fix-for-ethernet-connection-
 The script checks if eth0 is up and if so logs "Ethernet OK" to a log file in your home folder. If it is down it executes an ifup eth0 and then logs execution of the command.
 The webpage shows now to set the permissions and to add it to your crontab for a regular check at you chosen interval.
 
-Links
+# Links
 
- [https://samhobbs.co.uk/2013/11/fix-for-ethernet-connection-drop-on-raspberry-pi]
+ [Full desription of ethernet checker](https://samhobbs.co.uk/2013/11/fix-for-ethernet-connection-drop-on-raspberry-pi)
