@@ -11,7 +11,7 @@ Neil S. told me about this.
 
 It has a serial(RX/TX) interface. Also has a SD card interface.
 
-The interesteing thing about this is that it comes with Nextion editor, you write the user interface on the PC, then upload to a SD card,
+The interesting thing about this is that it comes with Nextion editor, you write the user interface on the PC, then upload to a SD card,
 and put the SD card on the unit. 
 
 ![Nextion editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/1023750975/original/2015-06-04_-_Nextion_Editor_-_Resolution_Horizontal_Vertical.png?1433428059)
