@@ -7,6 +7,8 @@ categories: robot
 ---
 ![Parallax ActivityBot 360](https://www.parallax.com/sites/default/files/news/Upgrade-06.jpg)
 
+Bill S. showed me this.
+
 The interesting thing for me is the following:
 
 - It is possible to attach it to a VGA monitor.
