@@ -1,7 +1,7 @@
 ---
 title: AIY google voice autostart on boot
 image: https://www.modmypi.com/image/cache/data/rpi-products/MMP-1136/DSC_0193-800x609.jpg
-excerpt: systemd script for AIY project
+excerpt: custom startup script for AIY voice project
 description: voice systemd AIY
 categories: voice
 ---
