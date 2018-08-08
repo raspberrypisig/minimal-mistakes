@@ -2,7 +2,7 @@
 title: Audio Projects
 image: https://www.maketecheasier.com/assets/uploads/2015/06/volumio-featured.jpg
 excerpt: Music recorders and streaming with Raspberry Pi
-description:
+description: audio raspberry pi
 categories: hardware
 ---
 
