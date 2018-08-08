@@ -1,8 +1,8 @@
 ---
 title: Google launches AIY Edge TPU Boards
 image: https://aiyprojects.withgoogle.com/static/images/tpu/product_dev_board_2x_splash.jpg
-excerpt:
-description:
+excerpt: Real-time machine learning apps on the raspberry pi
+description: edge tpu machine learning raspberry pi
 categories: hardware
 ---
 ![Edge TPU Accelerator](https://aiyprojects.withgoogle.com/static/images/tpu/product_accelerator_2x_splash.jpg)
