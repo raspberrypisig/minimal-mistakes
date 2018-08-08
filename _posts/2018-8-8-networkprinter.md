@@ -7,6 +7,7 @@ categories: raspbian
 ---
 Convert a USB printer into a network printer with the help of a raspberry pi.
 
-####Links
+#### Links
+
 [Setup CUPS Print Server](https://pimylifeup.com/raspberry-pi-print-server/)
 
