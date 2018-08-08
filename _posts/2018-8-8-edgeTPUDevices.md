@@ -13,4 +13,5 @@ Raspberry Pi(Edge TPU Accelerator), and their own dev board(Edge TPU Dev Board).
 ## Links
 
 [Google developer blog article](https://developers.googleblog.com/2018/07/new-aiy-edge-tpu-boards.html)
+
 [AIY page](https://aiyprojects.withgoogle.com/edge-tpu)
