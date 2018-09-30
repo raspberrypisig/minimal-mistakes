@@ -14,11 +14,20 @@ Here is what is looks like. We specify the time interval in Hz (f=1/T), for exam
 
 ![Entering Arduino Timer Specifications](https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/arduinotimercalculator.jpg)
 
-The result is the following code:
+However, the more common use case is that we want to run something every N seconds. In this scenario, we would set time period to 1s or 1Hz.
+
+The code that is produced follows:
 
 <script src="https://gist.github.com/raspberrypisig/8bf856ae9b55bb433d4c11ac9540a881.js"></script>
 
-You put the code you want to run every 2 seconds inside Line 33 in the code above.
+You put the code you want to run every second inside Line 33 in the code above.
+
+Now if you want to run some code every 30 seconds, this is how you would modify the code above
+
+
+
+
+
 
 Try it out on TinkerCad circuits. I [did](https://www.tinkercad.com/things/aRKBY3Jakh2-cool-habbi)
 
