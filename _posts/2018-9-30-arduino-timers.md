@@ -18,6 +18,8 @@ The result is the following code:
 
 <script src="https://gist.github.com/raspberrypisig/8bf856ae9b55bb433d4c11ac9540a881.js"></script>
 
+Try it out on TinkerCad circuits. I [did](https://www.tinkercad.com/things/aRKBY3Jakh2-cool-habbi)
+
 ## Arduino Timers In Detail
 [Arduino Timers 101](https://www.robotshop.com/community/forum/t/arduino-101-timers-and-interrupts/13072)
 
