@@ -139,4 +139,22 @@
  border: none;
 }
 
+.gist .highlight *::-moz-selection, figure.code .highlight *::-moz-selection {
+    background: #fff;
+    color: inherit;
+    text-shadow: #fff 0 1px
+}
+
+.gist .highlight *::-webkit-selection, figure.code .highlight *::-webkit-selection {
+    background: #fff;
+    color: inherit;
+    text-shadow: #fff 0 1px
+}
+
+.gist .highlight *::selection, figure.code .highlight *::selection {
+    background: #fff;
+    color: inherit;
+    text-shadow: #fff 0 1px
+}
+
 
