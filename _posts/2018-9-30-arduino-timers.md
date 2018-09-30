@@ -18,6 +18,8 @@ The result is the following code:
 
 <script src="https://gist.github.com/raspberrypisig/8bf856ae9b55bb433d4c11ac9540a881.js"></script>
 
+You put the code you want to run every 2 seconds inside Line 33 in the code above.
+
 Try it out on TinkerCad circuits. I [did](https://www.tinkercad.com/things/aRKBY3Jakh2-cool-habbi)
 
 ## Arduino Timers In Detail
