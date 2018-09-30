@@ -24,7 +24,7 @@ You put the code you want to run every second inside Line 33 in the code above.
 
 Now if you want to run some code every 30 seconds, this is how you would modify the code above
 
-
+<script src="https://gist.github.com/raspberrypisig/1f4cb0eb9c64ae56b911070e3d7dbe6e.js"></script>
 
 
 
