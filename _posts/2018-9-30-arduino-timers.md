@@ -1,6 +1,6 @@
 ---
 title: Arduino Timer Calculator
-image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/Arduino_Timer_0_Modes.png
+image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/arduinotimerctc.jpg
 excerpt: Using timers in arduino without libraries
 description: arduino timer calculator
 categories: arduino
