@@ -5,6 +5,11 @@ excerpt: Raspberry Pi SIG at MelbPC
 header:
   overlay_image: /assets/images/headerbg-purple.svg
 ---
+
+# Live Meeting
+[Click here](http://bit.ly/raspberrypisig)
+
+
 The Raspberry Pi SIG at MelbPC has had monthly meetings on the second Saturday of every month since Nov 2015. Our format at the meetings are:
 
 - Q&A
