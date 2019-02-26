@@ -6,7 +6,9 @@ description: ssh raspbian warning
 categories: raspbian
 ---
 
-This happens because the user **pi** has the default password of **raspberry**. Option 1 is to update password. Option 2 is hack away.
+This happens because the user **pi** has the default password of **raspberry**. 
+
+Option 1 is to update password. Option 2 is hack away.
 
 ```
 sudo rm -rf /etc/profile.d/sshpwd.sh
