@@ -30,16 +30,22 @@ sudo usermod -a -G dialout pi
 
 Reboot after this command is executed.
 
-#  Read the contents of uploaded Arduino binary
+#  Save/backup the contents of uploaded Arduino binary to a file
 
 ```
-avrdude -v  -p atmega328p -carduino -P /dev/ttyACM0 -b 115200 -D -Uflash:r:saved-program.bin:r
+avrdude -v  -p atmega328p -carduino -P /dev/ttyACM0 -b 115200 -D -Uflash:r:backup.bin:r
 ```
 
 # verify contents of uploaded Arduino binary
 
 ```
 avrdude -v  -p atmega328p -carduino -P /dev/ttyACM0 -b 115200 -D -Uflash:v:saved-program.bin:r
+```
+
+# write/restore backup to Arduino (dangerous, proceed with caution)
+
+```
+avrdude -v  -p atmega328p -carduino -P /dev/ttyACM0 -b 115200 -D -Uflash:w:saved-program.bin:r
 ```
 
 
