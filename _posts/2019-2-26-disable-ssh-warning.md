@@ -13,4 +13,5 @@ Option 1 is to update password. Option 2 is hack away.
 ```
 sudo rm -rf /etc/profile.d/sshpwd.sh
 sudo rm -rf /etc/xdg/lxsession/LXDE-pi/sshpwd.sh
+sudo rm -rf /etc/xdg/autostart/pprompt.desktop
 ```
