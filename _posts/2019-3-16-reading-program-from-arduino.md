@@ -1,6 +1,6 @@
 ---
 title: Backup uploaded arduino program from a raspberry pi
-image: http://1.bp.blogspot.com/-Y_054tkII7o/Uo2sMMpjCxI/AAAAAAAAAA0/h5odn9v7pb8/s320/hex_format.jpg
+image: https://1.bp.blogspot.com/-Y_054tkII7o/Uo2sMMpjCxI/AAAAAAAAAA0/h5odn9v7pb8/s320/hex_format.jpg
 description: Using the command line program avrdude
 excerpt: avrdude backup arduino raspberry pi
 categories: arduino
