@@ -40,3 +40,6 @@ The code is well written and easy to make out.
 
 [Alternative script for simultaneous wifi mode](https://github.com/lukicdarkoo/rpi-wifi/blob/master/configure)
 
+[Alternative script for Raspberry Pi Zero W](https://github.com/ch2i/LoraGW-Setup/blob/master/doc/AccessPoint.md)
+
+
