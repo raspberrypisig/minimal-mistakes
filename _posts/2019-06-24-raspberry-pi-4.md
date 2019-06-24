@@ -8,6 +8,8 @@ categories: hardware
 
 ![Raspberry Pi 4](https://cdn.shopify.com/s/files/1/0176/3274/products/Pi-4_ANGLE_TRANS_1024x1024.jpg?v=1561312182)
 
+![Raspberry Pi 4 new USB ports](https://www.raspberrypi.org/magpi/wp-content/uploads/2019/06/USB_ENET_CU-web.jpg)
+
 # Raspberry Pi 4 Specs
 
 * SoC: Broadcom BCM2711B0 quad-core A72 (ARMv8-A) 64-bit @ 1.5GHz
