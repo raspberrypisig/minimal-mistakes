@@ -32,5 +32,7 @@ categories: hardware
 # Links
 
 [Raspberry Pi 4 Specs](https://www.raspberrypi.org/magpi/raspberry-pi-4-specs-benchmarks/)
+[Element14](https://au.element14.com/MarketingProductList?orderCode=3051885,3051886,3051887)
+
 
 
