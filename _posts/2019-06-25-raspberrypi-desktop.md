@@ -1,6 +1,6 @@
 ---
 title: Raspberry Pi 4 Desktop Kit
-image: https://www.raspberrypi.org/homepage-9df4b/static/d83647658cd5e98867e718a97ed61d43/bc3a8/e071e90eee5e5f5c03faaa709023a9d9064f6a99_kit2.jpg
+image: https://www.raspberrypi.org/homepage-9df4b/static/527fddbca51d6a181416d39f984903af/bc3a8/a666fc66e1b8ba47862c10749967775e28234fe6_d_kit_uk_us_aus_ind_eu.jpg
 excerpt: keyboard and mouse and raspberry pi and 2 hdmi leads
 description: raspberry pi desktop kit
 categories: raspbian
