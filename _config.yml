@@ -251,7 +251,7 @@ defaults:
       related: true
       permalink: /blog/:categories/:year/:month/:day/:title/
       header:
-        overlay_image: /assets/images/headerbg-blue.svg
+        overlay_image: https://raspberrypisig.com/assets/images/headerbg-blue.svg
       
 # _pages
   - scope:
