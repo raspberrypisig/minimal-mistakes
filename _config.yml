@@ -250,8 +250,8 @@ defaults:
       share: true
       related: true
       permalink: /blog/:categories/:year/:month/:day/:title/
-      header:
-        overlay_image: /assets/images/headerbg-blue.svg
+      #header:
+      #  overlay_image: /assets/images/headerbg-blue.svg
       
 # _pages
   - scope:
