@@ -1,7 +1,7 @@
 ---
 title: Raspbian Buster released
 image: https://www.raspberrypi.org/magpi/wp-content/uploads/2019/06/simon-long-buster.png
-excerpt: Latest version fo Raspbian
+excerpt: Latest version of Raspbian
 description: raspbian buster
 categories: raspbian
 ---
