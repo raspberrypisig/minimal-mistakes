@@ -17,4 +17,6 @@ the raspberry pi.
 
 Amazing result.
 
+![kano touchscreen](https://raw.githubusercontent.com/raspberrypisig/raspberrypisig.github.io/master/assets/images/IMG_20191109_112817.jpg)
 
+This is running Kano OS (educational distro for raspberry pi)
