@@ -12,7 +12,7 @@ The easiest way to install it is using a dedicated raspbian image - instructions
 
 However, there are times where you would like to install motioneye on an existing raspbian image.
 
-I created a script to do just that:
+I created a script to do just that (needs Buster):
 
 ```sh
 curl -L http://bit.ly/38eG7gz|sudo -E bash -
