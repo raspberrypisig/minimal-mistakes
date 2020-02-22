@@ -15,7 +15,7 @@ However, there are times where you would like to install motioneye on an existin
 I created a script to do just that (needs Buster):
 
 ```sh
-curl -L http://bit.ly/38eG7gz|sudo -E bash -
+curl -L http://bit.ly/38ObQp3|sudo -E bash -
 ```
 
 
