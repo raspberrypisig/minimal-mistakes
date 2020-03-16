@@ -1,6 +1,6 @@
 ---
 title: Comprehensive list of SBCs
-image: http://linuxgizmos.com/files/open-sbc-cloud-thm.jpg
+image: https://github.com/raspberrypisig/raspberrypisig.github.io/raw/master/assets/images/open-sbc-cloud-thm.jpg
 excerpt: See what else is out there besides the Pi
 description: sbc pi 
 categories: iot
