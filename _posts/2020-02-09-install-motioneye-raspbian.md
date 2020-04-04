@@ -25,5 +25,6 @@ After install complete, motioneye will be available at
 http://IP_ADDRESS_RPI:8765
 
 username:admin
+
 no pwd
 
