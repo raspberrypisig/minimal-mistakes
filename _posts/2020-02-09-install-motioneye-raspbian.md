@@ -18,5 +18,12 @@ I created a script to do just that (Works with different flavours of Raspbian - 
 curl -L http://bit.ly/38ObQp3|sudo -E bash -
 ```
 
+Dont need to be root to run this script
 
+After install complete, motioneye will be available at
+
+http://IP_ADDRESS_RPI:8765
+
+username:admin
+no pwd
 
