@@ -10,7 +10,7 @@ The recommended way to install Home Assistant is to download the precompiled ras
 
 I still like to have Home Assistant installed on raspbian rather than hassio.
 
-The Home Assistant way to do this is called a Supervised Install, link (here)[https://github.com/home-assistant/supervised-installer]
+The Home Assistant way to do this is called a Supervised Install, link [here](https://github.com/home-assistant/supervised-installer)
 
 There are a few steps in setting this up, so I have created a script [here](https://gist.github.com/raspberrypisig/65aea786444dfa1f135ab5f3b2b85bcb)
 
