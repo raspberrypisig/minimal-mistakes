@@ -10,13 +10,13 @@ It is now possible to boot from a USB or SSD drive without using an SD card on a
 below is still in beta, in future the process will be much easier. You can read more about it [here](https://github.com/raspberrypi/rpi-eeprom/releases)
 
 
-1. Download https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/rpi-boot-eeprom-recovery-2020-05-28-vl805-000137ad-BETA.zip
+1. Download [https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/rpi-boot-eeprom-recovery-2020-05-28-vl805-000137ad-BETA.zip](https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/rpi-boot-eeprom-recovery-2020-05-28-vl805-000137ad-BETA.zip)
 2. Create an empty FAT-formatted SD card and extract the contents of the zip file from step 1
 3. Boot Raspberry Pi 4 with SD Card. If successful, green led blinks forever and with HDMI output you get a green screen. 
 4. Unplug Raspberry Pi 4 and eject the SD card.
 5. Download Raspberry Pi OS (previously Raspbian) 
 5. Use etcher/win32diskimager/RaspberryPImager as normal, but this time the target is not a SD card, but a USB/SSD drive.
-6. Download https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/usb-msd-boot-firmware.zip.
+6. Download [https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/usb-msd-boot-firmware.zip](https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/usb-msd-boot-firmware.zip)
 7. Extract and replace files on USB drive.
 8. Boot.
 
