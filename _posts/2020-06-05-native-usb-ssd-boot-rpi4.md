@@ -35,9 +35,11 @@ BOOT_UART=0
 WAKE_ON_GPIO=1
 POWER_OFF_ON_HALT=0
 FREEZE_VERSION=0
+```
 
 AFTER:
 
+```text
 $ vcgencmd bootloader_version
 
 May 28 2020 08:22:33
