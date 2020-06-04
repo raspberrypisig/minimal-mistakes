@@ -17,7 +17,7 @@ below is still in beta, in future the process will be much easier. You can read 
 5. Download Raspberry Pi OS (previously Raspbian) 
 5. Use etcher/win32diskimager/RaspberryPImager as normal, but this time the target is not a SD card, but a USB/SSD drive.
 6. Download [https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/usb-msd-boot-firmware.zip](https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/usb-msd-boot-firmware.zip)
-7. Extract and replace files on USB drive.
+7. Extract and replace files on USB/SSD drive.
 8. Boot.
 
 BEFORE:
