@@ -7,7 +7,7 @@ categories: raspbian
 ---
 
 It is now possible to boot from a USB or SSD drive without using an SD card on a Raspberry Pi 4. The procedure outlined
-below is still in beta, in future the process will be much easier. You can read more about it [here](https://github.com/raspberrypi/rpi-eeprom/releases)
+below is still in beta, in future the process will be much easier. You can read more about it [here](https://github.com/raspberrypi/rpi-eeprom/releases/tag/v2020.05.28-137ad)
 
 
 1. Download [https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/rpi-boot-eeprom-recovery-2020-05-28-vl805-000137ad-BETA.zip](https://github.com/raspberrypi/rpi-eeprom/releases/download/v2020.05.28-137ad/rpi-boot-eeprom-recovery-2020-05-28-vl805-000137ad-BETA.zip)
