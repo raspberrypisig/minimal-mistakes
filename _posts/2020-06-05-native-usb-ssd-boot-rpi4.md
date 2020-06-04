@@ -64,3 +64,5 @@ BOOT_ORDER=0xf41
 
 For me, the USB boot didn't work the first. Press off, then on, voila.
 
+Discussion [here](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=275187)
+
