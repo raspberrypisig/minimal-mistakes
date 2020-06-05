@@ -14,19 +14,26 @@ The Home Assistant way to do this is called a Supervised Install, link [here](ht
 
 There are a few steps in setting this up, so I have created a script [here](https://gist.github.com/raspberrypisig/65aea786444dfa1f135ab5f3b2b85bcb)
 
-All you need to do is from a fresh installation of Raspbian, run this:
+All you need to do is from a fresh installation of Raspbian/Raspberry Pi OS, run one of the following:
 
-```sh
+RASPBERRY PI 3
+
+```text
 curl -sL https://bit.ly/2ykrpaM | HOMEASSISTANT_INSTALL_LOCATION=/home/pi/homeassistant RASPBERRYPI=raspberrypi3 sudo -E bash -
 ```
 
-You may want to change raspberrypi3 in the above with one of the following:
+RASPBERRY PI 4
+
+```text
+curl -sL https://bit.ly/2ykrpaM | HOMEASSISTANT_INSTALL_LOCATION=/home/pi/homeassistant RASPBERRYPI=raspberrypi3 sudo -E bash -
+```
+
+
+Here are some other valid values for RASPBERRYPI environment variable
 
 raspberrypi 
 
 raspberrypi2
-
-raspberrypi4 
 
 raspberrypi3-64 
 
