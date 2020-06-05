@@ -42,7 +42,6 @@ raspberrypi4-64
 
 The installation directory will be /home/pi/homeassistant. 
 
-The installation will take about 30 minutes, after which you can go to http://localhost:8123 if your are on the Pi or
-http://IP_ADDRESS_OF_PI:8123 from another computer, replacing IP_ADDRESS_OF_PI with the IP address of computer.
+After the script completes, give about 10-15 minutes for the Docker containers to come up. Go to http://localhost:8123 if your are on the Pi or http://IP_ADDRESS_OF_PI:8123 from another computer, replacing IP_ADDRESS_OF_PI with the IP address of computer.
 
 Once you have done onboarding, ie create a user and logged into Home Assistant, have a poke around for 10 minutes, then REBOOT your pi (this is an important step). DNS issues go away (eg. map appears)
