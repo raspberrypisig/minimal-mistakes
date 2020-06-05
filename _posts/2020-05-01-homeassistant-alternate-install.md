@@ -25,7 +25,7 @@ curl -sL https://bit.ly/2ykrpaM | HOMEASSISTANT_INSTALL_LOCATION=/home/pi/homeas
 RASPBERRY PI 4
 
 ```text
-curl -sL https://bit.ly/2ykrpaM | HOMEASSISTANT_INSTALL_LOCATION=/home/pi/homeassistant RASPBERRYPI=raspberrypi3 sudo -E bash -
+curl -sL https://bit.ly/2ykrpaM | HOMEASSISTANT_INSTALL_LOCATION=/home/pi/homeassistant RASPBERRYPI=raspberrypi4 sudo -E bash -
 ```
 
 
